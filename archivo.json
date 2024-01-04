@@ -1,0 +1,365 @@
+[
+ {
+  "Num_iden": [
+   1
+  ],
+  "Nombre": "Guts",
+  "Apellido": "Contreras",
+  "Direccion": "Bucarica",
+  "Acudiente": "Claudia",
+  "Telefono": "315324562",
+  "Estado": "Activo"
+ },
+ {
+  "Num_iden": [
+   2
+  ],
+  "Nombre": "Thorfin",
+  "Apellido": "Melendez",
+  "Direccion": "Florida",
+  "Acudiente": "Alejandra",
+  "Telefono": "3187003254",
+  "Estado": "Inactivo"
+ },
+ {
+  "Num_iden": [
+   3
+  ],
+  "Nombre": "Mushashi",
+  "Apellido": "Castro",
+  "Direccion": " Peyecuesta",
+  "Acudiente": " Valentina",
+  "Telefono": "3118880231",
+  "Estado": "Activo"
+ },
+ {
+  "Num_iden": [
+   4
+  ],
+  "Nombre": "Guts",
+  "Apellido": "Contreras",
+  "Direccion": "Bucarica",
+  "Acudiente": "Claudia",
+  "Telefono": "315324562",
+  "Estado": "Inactivo"
+ },
+ {
+  "Num_iden": [
+   5
+  ],
+  "Nombre": "Thorfin",
+  "Apellido": "Melendez",
+  "Direccion": "Florida",
+  "Acudiente": "Alejandra",
+  "Telefono": "3187003254",
+  "Estado": "Activo"
+ },
+ {
+  "Num_iden": [
+   6
+  ],
+  "Nombre": "Mushashi",
+  "Apellido": "Castro",
+  "Direccion": " Peyecuesta",
+  "Acudiente": " Valentina",
+  "Telefono": "3118880231",
+  "Estado": "Inactivo"
+ },
+ {
+  "Num_iden": [
+   7
+  ],
+  "Nombre": "Guts",
+  "Apellido": "Contreras",
+  "Direccion": "Bucarica",
+  "Acudiente": "Claudia",
+  "Telefono": "315324562",
+  "Estado": "Activo"
+ },
+ {
+  "Num_iden": [
+   8
+  ],
+  "Nombre": "Thorfin",
+  "Apellido": "Melendez",
+  "Direccion": "Florida",
+  "Acudiente": "Alejandra",
+  "Telefono": "3187003254",
+  "Estado": "Inactivo"
+ },
+ {
+  "Num_iden": [
+   9
+  ],
+  "Nombre": "Mushashi",
+  "Apellido": "Castro",
+  "Direccion": " Peyecuesta",
+  "Acudiente": " Valentina",
+  "Telefono": "3118880231",
+  "Estado": "Activo"
+ },
+ {
+  "Num_iden": [
+   10
+  ],
+  "Nombre": "Guts",
+  "Apellido": "Contreras",
+  "Direccion": "Bucarica",
+  "Acudiente": "Claudia",
+  "Telefono": "315324562",
+  "Estado": "Inactivo"
+ },
+ {
+  "Num_iden": [
+   11
+  ],
+  "Nombre": "Thorfin",
+  "Apellido": "Melendez",
+  "Direccion": "Florida",
+  "Acudiente": "Alejandra",
+  "Telefono": "3187003254",
+  "Estado": "Activo"
+ },
+ {
+  "Num_iden": [
+   12
+  ],
+  "Nombre": "Mushashi",
+  "Apellido": "Castro",
+  "Direccion": " Peyecuesta",
+  "Acudiente": " Valentina",
+  "Telefono": "3118880231",
+  "Estado": "Inactivo"
+ },
+ {
+  "Num_iden": [
+   13
+  ],
+  "Nombre": "Guts",
+  "Apellido": "Contreras",
+  "Direccion": "Bucarica",
+  "Acudiente": "Claudia",
+  "Telefono": "315324562",
+  "Estado": "Activo"
+ },
+ {
+  "Num_iden": [
+   14
+  ],
+  "Nombre": "Thorfin",
+  "Apellido": "Melendez",
+  "Direccion": "Florida",
+  "Acudiente": "Alejandra",
+  "Telefono": "3187003254",
+  "Estado": "Inactivo"
+ },
+ {
+  "Num_iden": [
+   15
+  ],
+  "Nombre": "Mushashi",
+  "Apellido": "Castro",
+  "Direccion": " Peyecuesta",
+  "Acudiente": " Valentina",
+  "Telefono": "3118880231",
+  "Estado": "Activo"
+ },
+ {
+  "Num_iden": [
+   16
+  ],
+  "Nombre": "Guts",
+  "Apellido": "Contreras",
+  "Direccion": "Bucarica",
+  "Acudiente": "Claudia",
+  "Telefono": "315324562",
+  "Estado": "Inactivo"
+ },
+ {
+  "Num_iden": [
+   17
+  ],
+  "Nombre": "Thorfin",
+  "Apellido": "Melendez",
+  "Direccion": "Florida",
+  "Acudiente": "Alejandra",
+  "Telefono": "3187003254",
+  "Estado": "Activo"
+ },
+ {
+  "Num_iden": [
+   18
+  ],
+  "Nombre": "Mushashi",
+  "Apellido": "Castro",
+  "Direccion": " Peyecuesta",
+  "Acudiente": " Valentina",
+  "Telefono": "3118880231",
+  "Estado": "Inactivo"
+ },
+ {
+  "Num_iden": [
+   19
+  ],
+  "Nombre": "Guts",
+  "Apellido": "Contreras",
+  "Direccion": "Bucarica",
+  "Acudiente": "Claudia",
+  "Telefono": "315324562",
+  "Estado": "Activo"
+ },
+ {
+  "Num_iden": [
+   20
+  ],
+  "Nombre": "Thorfin",
+  "Apellido": "Melendez",
+  "Direccion": "Florida",
+  "Acudiente": "Alejandra",
+  "Telefono": "3187003254",
+  "Estado": "Inactivo"
+ },
+ {
+  "Num_iden": [
+   21
+  ],
+  "Nombre": "Mushashi",
+  "Apellido": "Castro",
+  "Direccion": " Peyecuesta",
+  "Acudiente": " Valentina",
+  "Telefono": "3118880231",
+  "Estado": "Activo"
+ },
+ {
+  "Num_iden": [
+   22
+  ],
+  "Nombre": "Guts",
+  "Apellido": "Contreras",
+  "Direccion": "Bucarica",
+  "Acudiente": "Claudia",
+  "Telefono": "315324562",
+  "Estado": "Inactivo"
+ },
+ {
+  "Num_iden": [
+   23
+  ],
+  "Nombre": "Thorfin",
+  "Apellido": "Melendez",
+  "Direccion": "Florida",
+  "Acudiente": "Alejandra",
+  "Telefono": "3187003254",
+  "Estado": "Activo"
+ },
+ {
+  "Num_iden": [
+   24
+  ],
+  "Nombre": "Mushashi",
+  "Apellido": "Castro",
+  "Direccion": " Peyecuesta",
+  "Acudiente": " Valentina",
+  "Telefono": "3118880231",
+  "Estado": "Inactivo"
+ },
+ {
+  "Num_iden": [
+   25
+  ],
+  "Nombre": "Guts",
+  "Apellido": "Contreras",
+  "Direccion": "Bucarica",
+  "Acudiente": "Claudia",
+  "Telefono": "315324562",
+  "Estado": "Activo"
+ },
+ {
+  "Num_iden": [
+   26
+  ],
+  "Nombre": "Thorfin",
+  "Apellido": "Melendez",
+  "Direccion": "Florida",
+  "Acudiente": "Alejandra",
+  "Telefono": "3187003254",
+  "Estado": "Inactivo"
+ },
+ {
+  "Num_iden": [
+   27
+  ],
+  "Nombre": "Mushashi",
+  "Apellido": "Castro",
+  "Direccion": " Peyecuesta",
+  "Acudiente": " Valentina",
+  "Telefono": "3118880231",
+  "Estado": "Activo"
+ },
+ {
+  "Num_iden": [
+   28
+  ],
+  "Nombre": "Guts",
+  "Apellido": "Contreras",
+  "Direccion": "Bucarica",
+  "Acudiente": "Claudia",
+  "Telefono": "315324562",
+  "Estado": "Inactivo"
+ },
+ {
+  "Num_iden": [
+   29
+  ],
+  "Nombre": "Thorfin",
+  "Apellido": "Melendez",
+  "Direccion": "Florida",
+  "Acudiente": "Alejandra",
+  "Telefono": "3187003254",
+  "Estado": "Activo"
+ },
+ {
+  "Num_iden": [
+   30
+  ],
+  "Nombre": "Mushashi",
+  "Apellido": "Castro",
+  "Direccion": " Peyecuesta",
+  "Acudiente": " Valentina",
+  "Telefono": "3118880231",
+  "Estado": "Inactivo"
+ },
+ {
+  "Num_iden": [
+   31
+  ],
+  "Nombre": "Guts",
+  "Apellido": "Contreras",
+  "Direccion": "Bucarica",
+  "Acudiente": "Claudia",
+  "Telefono": "315324562",
+  "Estado": "Activo"
+ },
+ {
+  "Num_iden": [
+   32
+  ],
+  "Nombre": "Thorfin",
+  "Apellido": "Melendez",
+  "Direccion": "Florida",
+  "Acudiente": "Alejandra",
+  "Telefono": "3187003254",
+  "Estado": "Inactivo"
+ },
+ {
+  "Num_iden": [
+   33
+  ],
+  "Nombre": "Mushashi",
+  "Apellido": "Castro",
+  "Direccion": " Peyecuesta",
+  "Acudiente": " Valentina",
+  "Telefono": "3118880231",
+  "Estado": "Activo"
+ }
+]
