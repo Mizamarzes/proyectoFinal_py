@@ -1,3 +1,6 @@
+from herramientas.utilidades import numero_alelatorio 
+
+print(numero_alelatorio())
 
 def generar_list():
     students=[]
