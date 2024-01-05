@@ -1,14 +1,17 @@
 
-from proceso.campers_register import lista_campers, inscribir_camper, mostrar_campers, cargar_campers_json
-from herramientas.menus import menu_principal
+from proceso.campers_register import inscribir_camper, mostrar_campers
+from herramientas.menus import menu_principal, menu_campers
 from herramientas.utilidades import limpiar_pantalla
 
 def centro():
     limpiar_pantalla()
+    op=menu_campers()
     if op==1:
         inscribir_camper()
-    elif op==2:
+        input("Click cualquier tecla [continuar]: ")
+    if op==2:
         mostrar_campers()
+        input("Click cualquier tecla [continuar]: ")
     else:
         print("Opcion no valida")
     
@@ -18,7 +21,7 @@ while True:
     if op==1:
         centro()
     elif op==2:
-        continue
+        print()
     elif op==3:
         break
     else: 
