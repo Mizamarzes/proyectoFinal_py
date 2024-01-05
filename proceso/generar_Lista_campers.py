@@ -19,6 +19,6 @@ def generar_list():
             "Telefono": telefonos[i % 3],
             "Estado": estado[i % 2]
         }
-
+    
         students.append(student)
     return students

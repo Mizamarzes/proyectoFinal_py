@@ -1,6 +1,6 @@
 import json
-from registrar_camper import registrar_student
-from generar_Lista_campers import generar_list
+from proceso.registrar_camper import registrar_student
+from proceso.generar_Lista_campers import generar_list
 
 while True:
 

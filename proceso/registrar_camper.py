@@ -1,14 +1,14 @@
 
-def registrar_student():
+def regiar_student():
     
     print("Ingresa: ")
     num_identificacion=int(input("Numero de identificación: "))
-    nombre=str(input("Nombre: "))
-    apellidos=str(input("Apellidos: "))
-    direccion=str(input("Direccion: "))
-    acudiente=str(input("Acudiente: "))
+    nombre=input("Nombre: ")
+    apellidos=input("Apellidos: ")
+    direccion=input("Direccion: ")
+    acudiente=input("Acudiente: ")
     telefono=int(input("Telefono: "))
-    estado=str(input("Estado: "))
+    estado=input("Estado: ")
     
     new_student={
         "Num_identificacion":num_identificacion,
