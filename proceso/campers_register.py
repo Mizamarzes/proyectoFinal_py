@@ -15,24 +15,23 @@ lista_campers=cargar_campers_json()
 print(lista_campers)
 
 def inscribir_camper():
-    print("Ingresa: ")
     num_identificacion=int(input("Numero de identificación: "))
     nombre=input("Nombre: ")
-    # apellidos=input("Apellidos: ")
-    # direccion=input("Direccion: ")
-    # acudiente=input("Acudiente: ")
-    # telefonoFijo=int(input("Telefono Fijo: "))
-    # numCelular=int(input("Nro celular: "))
-    # estado=input("Estado: ")
+    apellidos=input("Apellidos: ")
+    direccion=input("Direccion: ")
+    acudiente=input("Acudiente: ")
+    telefonoFijo=int(input("Telefono Fijo: "))
+    numCelular=int(input("Nro celular: "))
+    estado=input("Estado: ")
     
     new_camper={
         'Num_identificacion':num_identificacion,
         'Nombre':nombre,
-        # "Apellido":apellidos,
-        # "Direccion":direccion,
-        # "Acudiente":acudiente,
-        # "Telefono":[telefonoFijo, numCelular],
-        # "Estado":estado
+        "Apellido":apellidos,
+        "Direccion":direccion,
+        "Acudiente":acudiente,
+        "Telefono":[telefonoFijo, numCelular],
+        "Estado":estado
     }
     
 

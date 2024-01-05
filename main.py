@@ -12,8 +12,7 @@ def centro():
     if op==2:
         mostrar_campers()
         input("Click cualquier tecla [continuar]: ")
-    else:
-        print("Opcion no valida")
+    
     
 while True:
     limpiar_pantalla()
@@ -23,6 +22,7 @@ while True:
     elif op==2:
         print()
     elif op==3:
+        print("Gracias por utilizar nuestro servicio")
         break
     else: 
         print("Invalido")

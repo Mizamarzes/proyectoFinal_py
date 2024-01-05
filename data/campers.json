@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "Num_identificacion": 213213,
+    "Nombre": "name"
+  },
+  {
+    "Num_identificacion": 1097782782,
+    "Nombre": "Juan Diego",
+    "Apellido": "Contreras Melendez",
+    "Direccion": "Cra 32#114-45",
+    "Acudiente": "Maria",
+    "Telefono": [
+      3231414,
+      21313123
+    ],
+    "Estado": "Inscrito"
+  }
+]
