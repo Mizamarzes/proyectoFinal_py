@@ -1,0 +1,14 @@
+Primera parte a realizar:
+
+- Generar una lista de campers
+- Registro de camper - solo 1 para probrar
+-
+
+
+
+
+
+
+
+
+
