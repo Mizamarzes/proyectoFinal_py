@@ -18,7 +18,7 @@ def validar_opcion(enunciando,inferior,superior):
         except ValueError:
             print("Por favor, introduce un número válido. ")
 
-def generar_num_identificacion():
+def generar_id():
     return random.randint(100000000, 999999999)
 
 def generar_nombre():
@@ -40,7 +40,4 @@ def generar_acudiente():
 def generar_telefono():
     return f"{random.randint(1000000, 9999999)}"
 
-def generar_estado():
-    estados = ["Activo", "Inactivo", "En espera"]
-    return random.choice(estados)
 
