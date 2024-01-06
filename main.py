@@ -1,4 +1,3 @@
-
 from proceso.campers_register import inscribir_camper, mostrar_campers
 from herramientas.menus import menu_principal, menu_campers
 from herramientas.utilidades import limpiar_pantalla

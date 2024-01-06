@@ -1,18 +1,50 @@
 [
   {
-    "Num_identificacion": 213213,
-    "Nombre": "name"
+    "num_identificacion": 109523134,
+    "nombre": "carlos",
+    "apellido": "mendez",
+    "direccion": "cra332",
+    "acudiente": "mama",
+    "telefono": [
+      13231234,
+      42152346
+    ],
+    "estado": "inscrito"
   },
   {
-    "Num_identificacion": 1097782782,
-    "Nombre": "Juan Diego",
-    "Apellido": "Contreras Melendez",
-    "Direccion": "Cra 32#114-45",
-    "Acudiente": "Maria",
-    "Telefono": [
-      3231414,
-      21313123
+    "num_identificacion": 10242145,
+    "nombre": "juan",
+    "apellido": "rojas",
+    "direccion": "cra2314",
+    "acudiente": "papa",
+    "telefono": [
+      231415,
+      446778
     ],
-    "Estado": "Inscrito"
+    "estado": "inscrito"
+  },
+  {
+    "num_identificacion": 1093252654,
+    "nombre": "pedro",
+    "apellido": "santos",
+    "direccion": "calle20",
+    "acudiente": "tio",
+    "telefono": [
+      32798621,
+      325370943
+    ],
+    "estado": "activo"
+  },
+  {
+    "num_identificacion": 21349141,
+    "nombre": "maria",
+    "apellido": "melendez",
+    "direccion": "calle345",
+    "acudiente": "mama",
+    "telefono": [
+      39401951,
+      433184
+    ],
+    "estado": "activo"
   }
 ]

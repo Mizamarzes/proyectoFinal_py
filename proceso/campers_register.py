@@ -25,13 +25,13 @@ def inscribir_camper():
     estado=input("Estado: ")
     
     new_camper={
-        'Num_identificacion':num_identificacion,
-        'Nombre':nombre,
-        "Apellido":apellidos,
-        "Direccion":direccion,
-        "Acudiente":acudiente,
-        "Telefono":[telefonoFijo, numCelular],
-        "Estado":estado
+        'num_identificacion':num_identificacion,
+        'nombre':nombre,
+        "apellido":apellidos,
+        "direccion":direccion,
+        "acudiente":acudiente,
+        "telefono":[telefonoFijo, numCelular],
+        "estado":estado
     }
     
 
