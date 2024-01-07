@@ -6,7 +6,7 @@ try:
 
     for camper in lista_campers:
         print("")
-        print(f"Numero de identificacion: {camper['num_identificacion']}")
+        print(f"Numero de identificacion: {camper['id']}")
 
 except FileNotFoundError:
     print("El archivo no se encuentra.")

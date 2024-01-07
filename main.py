@@ -1,8 +1,9 @@
-from business.campers_register import inscribir_camper, mostrar_campers
-from business.generar_campers import generar_list
-from commons.menus import menu_principal, menu_campers
-from commons.utils import limpiar_pantalla
+from business.campers_register import * 
+from commons.menus import *
+from commons.utils import *
 
+generar_list()     # genera la lista de estudiantes de forma alelatoria
+notas_prueba_inicial()
 
 def centro():
     limpiar_pantalla()
@@ -14,16 +15,16 @@ def centro():
         mostrar_campers()
         input("Click cualquier tecla [continuar]: ")
     if op==3:
+        mostrar_inscritos()
         input("Click cualquier tecla [continuar]: ")
 
-generar_list()     # genera la lista de estudiantes de forma alelatoria
- 
+
 while True:
     limpiar_pantalla()
     op=menu_principal()
     if op==1:
         centro()
-    elif op==2:
+    elif op==6:
         print("Gracias por utilizar nuestro servicio")
         break        
     else: 
