@@ -9,7 +9,7 @@ def cargar_campers_json():
     try:
         with open(os.path.join("data", "campers.json"), 'r') as archivo_json:        
             lista_campers = json.load(archivo_json)
-            print("La lista de inscritos ha sido cargada")
+            # print("La lista de inscritos ha sido cargada")
             return lista_campers
     except Exception as e:
         print(f"Error al cargar el archivo: {e}")
@@ -19,7 +19,7 @@ def cargar_inscritos_json():
     try:
         with open(os.path.join("data", "inscritos.json"), 'r') as archivo_json:        
             campers_inscritos = json.load(archivo_json)
-            print("La lista de aprobados ha sido cargada")
+            # print("La lista de aprobados ha sido cargada")
             return campers_inscritos
     except Exception as e:
         print(f"Error al cargar el archivo: {e}")
@@ -111,7 +111,7 @@ def generar_list():
             "acudiente": generar_acudiente(),
             "telefono": [generar_telefono(),generar_telefono()],
             "nota_prueba_admision":promedio_nota_inicial,
-            "estado:":estado
+            "estado":estado
         }
         campers_alelatorios.append(datos)
 
@@ -180,17 +180,29 @@ def mostrar_inscritos():
 def modificar_camper():
 
     try:
+        campers_inscritos = cargar_inscritos_json()
         lista_campers=cargar_campers_json()
         id_a_buscar=int(input("id del camper a modificar: "))
         nuevo_estado=input("Nuevo estado: ")
         
         for camper in lista_campers:
             if camper['id'] == id_a_buscar:
-                camper["estado"] = nuevo_estado
+                camper['estado'] = nuevo_estado
                 print(f"Estado del camper con id {id_a_buscar} modificado a: {nuevo_estado}")
+
+            if nuevo_estado.lower() == "aprobado":
+                new_camper_inscritos = {
+                    "id": camper['id'],
+                    "estado": nuevo_estado,
+                    "nota_prueba_admision": camper['nota_prueba_admision']
+                }
+                campers_inscritos.append(new_camper_inscritos)
 
         save_json(lista_campers, "campers.json")
 
+        if campers_inscritos:  
+            save_json(campers_inscritos, "inscritos.json")
+        
     except FileNotFoundError:
         print(f"El archivo no se encuentra.")
     except json.JSONDecodeError:

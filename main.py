@@ -6,7 +6,7 @@ generar_list()     # genera la lista de estudiantes de forma alelatoria
 generar_lista_aprobados() # genera lista de campers que aprobaron la prueba de admision
 
 def centro():
-    # limpia pantalla
+    limpiar_pantalla()	# limpia pantalla
     suboption=menu_campers()
     if suboption==1:
         inscribir_camper()
@@ -26,6 +26,7 @@ def centro():
         print("Invalido")
 
 while True:
+    limpiar_pantalla()
     op=menu_principal()
     if op==1:
         centro()

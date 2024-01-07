@@ -20,3 +20,13 @@ def menu_campers():
     print("5. Salir")
     op=validar_opcion("Opcion: ",1,5)
     return op
+
+def menu_modificar():
+    print("----------- Menú Modificar-----------")
+    print("1. Modificar estado")
+    print("2. Apellidos")
+    print("3. Listar aprobados")
+    print("4. Modificar campers")
+    print("5. Salir")
+    op=validar_opcion("Opcion: ",1,5)
+
