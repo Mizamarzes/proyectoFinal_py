@@ -3,8 +3,8 @@ from process.rutas import *
 from tools.menus import *
 from tools.utils import *
 
-generar_list()     # genera la lista de estudiantes de forma alelatoria
-generar_lista_aprobados() # genera lista de campers que aprobaron la prueba de admision
+#-----------------------------------------------------------------------------------
+# funciones de control secundarias
 
 def manejar_campers():
 	# limpia pantalla
@@ -25,7 +25,6 @@ def manejar_campers():
         print()
 
 def rutas():
-
     suboption=menu_rutas()
     if suboption==1:
         crear_nueva_ruta()
@@ -35,6 +34,13 @@ def rutas():
         input("Click cualquier tecla [continuar]: ")
     elif suboption==3:
         print()
+
+#-----------------------------------------------------------------------------------
+generar_list()     # genera la lista de estudiantes de forma alelatoria
+generar_lista_aprobados() # genera lista de campers que aprobaron la prueba de admision
+#----------------------------------------------------------------------------------
+
+# zona controladora principal
 
 while True:
     op=menu_principal()
