@@ -1,0 +1,25 @@
+[
+  {
+    "nombre":"NodeJS",
+    "fundamentos_de_progamacion":["Introducion_a_la_algoritmia","PSeint","Python"],
+    "programacion_web":["HTML","CSS","Bootsrap"],
+    "programacion_formal":"JavaScript",
+    "bases_de_datos" :[" MongoDb y Postgresql","Mysql"],
+    "backend":["NodeJS","Express"]
+  }, 
+  {
+    "nombre":"Java",
+    "fundamentos_de_progamacion":["Introducion_a_la_algoritmia","PSeint","Python"],
+    "programacion_web":["HTML","CSS"],
+    "programacion_formal":"Java",
+    "bases_de_datos" :[" MongoDb y Postgresql","Mysql"],
+    "backend":["Spring Boot"]
+  },
+  {
+    "nombre":"NetCore",
+    "fundamentos_de_progamacion":["Introducion_a_la_algoritmia","PSeint","Python"],
+    "programacion_web":["HTML","CSS"],
+    "programacion_formal":"C#",
+    "bases_de_datos" :["Mysql"," MongoDb y Postgresql"] 
+  }
+]
