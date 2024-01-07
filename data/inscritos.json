@@ -1,72 +1,82 @@
 [
   {
-    "id": 101930835,
+    "id": 312434340,
     "estado": "Inscrito",
-    "nota_prueba_admision": 84.5
+    "nota_prueba_admision": 74.0
   },
   {
-    "id": 957510972,
+    "id": 238213061,
     "estado": "Inscrito",
-    "nota_prueba_admision": 70.5
+    "nota_prueba_admision": 83.0
   },
   {
-    "id": 851423303,
+    "id": 134695167,
     "estado": "Inscrito",
-    "nota_prueba_admision": 62.5
+    "nota_prueba_admision": 93.0
   },
   {
-    "id": 466013073,
+    "id": 831155408,
     "estado": "Inscrito",
-    "nota_prueba_admision": 76.0
+    "nota_prueba_admision": 67.5
   },
   {
-    "id": 738775711,
+    "id": 461542044,
     "estado": "Inscrito",
-    "nota_prueba_admision": 71.0
+    "nota_prueba_admision": 85.0
   },
   {
-    "id": 309732137,
+    "id": 530237012,
     "estado": "Inscrito",
-    "nota_prueba_admision": 85.5
+    "nota_prueba_admision": 62.0
   },
   {
-    "id": 770879231,
+    "id": 992162597,
     "estado": "Inscrito",
-    "nota_prueba_admision": 75.5
+    "nota_prueba_admision": 68.5
   },
   {
-    "id": 654318371,
+    "id": 217746882,
     "estado": "Inscrito",
-    "nota_prueba_admision": 65.0
+    "nota_prueba_admision": 78.5
   },
   {
-    "id": 263875653,
+    "id": 254620691,
+    "estado": "Inscrito",
+    "nota_prueba_admision": 74.0
+  },
+  {
+    "id": 940654420,
     "estado": "Inscrito",
     "nota_prueba_admision": 79.5
   },
   {
-    "id": 789541518,
+    "id": 361309445,
     "estado": "Inscrito",
-    "nota_prueba_admision": 77.0
+    "nota_prueba_admision": 66.5
   },
   {
-    "id": 103051435,
+    "id": 416767676,
     "estado": "Inscrito",
-    "nota_prueba_admision": 71.5
+    "nota_prueba_admision": 77.5
   },
   {
-    "id": 196500163,
+    "id": 721403575,
     "estado": "Inscrito",
-    "nota_prueba_admision": 67.0
+    "nota_prueba_admision": 76.5
   },
   {
-    "id": 476707856,
+    "id": 294746186,
     "estado": "Inscrito",
-    "nota_prueba_admision": 71.5
+    "nota_prueba_admision": 94.0
   },
   {
-    "id": 1097782782,
+    "id": 396222998,
     "estado": "Inscrito",
-    "nota_prueba_admision": 99.0
+    "nota_prueba_admision": 66.5
+  },
+  {
+    "id": 622561947,
+    "estado": "Inscrito",
+    "nota_prueba_admision": 73.0
   }
 ]

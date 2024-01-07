@@ -1,6 +1,6 @@
 import json
 import os
-from commons.utils import *
+from tools.utils import *
 
 # ------------------------------------------------------------------------------
 # funciones de carga de json
@@ -84,8 +84,6 @@ def inscribir_camper():
         "estado":estado
     }
 
-    
-
     lista_campers.append(new_camper)
     print("Se ha inscrito el camper con exito")
     save_json(lista_campers, "campers.json")
@@ -160,8 +158,8 @@ def notas_prueba_inicial():
         print(f"Se produjo un error: {e}")
 
 
-# funciones para mostrar
 # --------------------------------------------------------------------
+# funciones para mostrar
 
 def mostrar_campers():
     lista_campers = cargar_campers_json()
@@ -174,6 +172,14 @@ def mostrar_inscritos():
     print("Lista de inscritos: ")
     for inscrito in campers_inscritos:
         print(inscrito)
+
+# -------------------------------------------------------------------
+# modificar campers, lista general
+
+
+
+
+
         
 
 
