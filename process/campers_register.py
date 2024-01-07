@@ -18,7 +18,7 @@ def cargar_inscritos_json():
     try:
         with open(os.path.join("data", "inscritos.json"), 'r') as archivo_json:        
             campers_inscritos = json.load(archivo_json)
-            print("La lista de inscritos ha sido cargada")
+            # print("La lista de inscritos ha sido cargada")
             return campers_inscritos
     except Exception as e:
         print(f"Error al cargar el archivo: {e}")
@@ -32,7 +32,7 @@ def save_json(lista_campers, filename):
     try:
         with open(os.path.join("data", filename), 'w', encoding="utf-8") as archivo_json:
             json.dump(lista_campers, archivo_json, indent=2, ensure_ascii=False)
-            print(f"La lista de {filename} ha sido guardada")
+            # print(f"La lista de {filename} ha sido guardada")
     except FileNotFoundError:
         print(f"El archivo {filename} no existe. Puede que aún no haya campers guardados.")
     except json.JSONDecodeError:
@@ -132,11 +132,11 @@ def generar_lista_aprobados():
             lista_campers = json.load(file)
 
         for camper in lista_campers:
-            notas_prueba_teorica = generar_notas_inicial()
-            notas_prueba_practica = generar_notas_inicial()
+            notas_prueba_teorica = camper['nota_prueba_admision']
+            notas_prueba_practica = camper['nota_prueba_admision']
             promedio_nota_inicial = promedio(notas_prueba_teorica, notas_prueba_practica, 2)
 
-            estado = "Inscrito" if promedio_nota_inicial >= 60 else "Rechazado"
+            estado = "Aprobado" if promedio_nota_inicial >= 60 else "Rechazado"
 
             new_camper_inscritos = {
                 "id": camper['id'],
@@ -144,7 +144,7 @@ def generar_lista_aprobados():
                 "nota_prueba_admision": promedio_nota_inicial
             }
 
-            if estado == "Inscrito":
+            if estado == "Aprobado":
                 campers_inscritos.append(new_camper_inscritos)
 
         if campers_inscritos:  # Check if there are any campers to save
