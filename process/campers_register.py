@@ -9,6 +9,7 @@ def cargar_campers_json():
     try:
         with open(os.path.join("data", "campers.json"), 'r') as archivo_json:        
             lista_campers = json.load(archivo_json)
+            print("La lista de inscritos ha sido cargada")
             return lista_campers
     except Exception as e:
         print(f"Error al cargar el archivo: {e}")
@@ -18,7 +19,7 @@ def cargar_inscritos_json():
     try:
         with open(os.path.join("data", "inscritos.json"), 'r') as archivo_json:        
             campers_inscritos = json.load(archivo_json)
-            # print("La lista de inscritos ha sido cargada")
+            print("La lista de aprobados ha sido cargada")
             return campers_inscritos
     except Exception as e:
         print(f"Error al cargar el archivo: {e}")
@@ -32,7 +33,7 @@ def save_json(lista_campers, filename):
     try:
         with open(os.path.join("data", filename), 'w', encoding="utf-8") as archivo_json:
             json.dump(lista_campers, archivo_json, indent=2, ensure_ascii=False)
-            # print(f"La lista de {filename} ha sido guardada")
+            print(f"La lista de {filename} ha sido guardada")
     except FileNotFoundError:
         print(f"El archivo {filename} no existe. Puede que aún no haya campers guardados.")
     except json.JSONDecodeError:
@@ -58,7 +59,7 @@ def inscribir_camper():
     promedio_nota_inicial = promedio(nota_prueba_teorica, nota_prueba_practica, 2)
 
     if promedio_nota_inicial>=60:
-        estado="Inscrito"
+        estado="Aprobado"
 
         new_camper_inscritos = {
             "id": id,
@@ -100,7 +101,7 @@ def generar_list():
         nota_prueba_teorica=generar_notas_inicial()
         nota_prueba_practica=generar_notas_inicial()
         promedio_nota_inicial = promedio(nota_prueba_teorica, nota_prueba_practica, 2)
-        estado = "Inscrito" if promedio_nota_inicial >= 60 else "Rechazado"
+        estado = "Aprobado" if promedio_nota_inicial >= 60 else "Rechazado"
 
         datos = {
             "id": generar_id(),
@@ -176,8 +177,28 @@ def mostrar_inscritos():
 # -------------------------------------------------------------------
 # modificar campers, lista general
 
+def modificar_camper():
 
+    try:
+        lista_campers=cargar_campers_json()
+        id_a_buscar=int(input("id del camper a modificar: "))
+        nuevo_estado=input("Nuevo estado: ")
+        
+        for camper in lista_campers:
+            if camper['id'] == id_a_buscar:
+                camper["estado"] = nuevo_estado
+                print(f"Estado del camper con id {id_a_buscar} modificado a: {nuevo_estado}")
 
+        save_json(lista_campers, "campers.json")
+
+    except FileNotFoundError:
+        print(f"El archivo no se encuentra.")
+    except json.JSONDecodeError:
+        print(f"Error al decodificar el JSON.")
+    except Exception as e:
+        print(f"Se produjo un error: {e}")
+
+    
 
 
         
