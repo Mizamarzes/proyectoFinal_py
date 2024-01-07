@@ -20,6 +20,8 @@ def centro():
         input("Click cualquier tecla [continuar]: ")
     elif op==4:
         print()
+    elif op==5:
+        print()
     else:
         print("Invalido")
 
