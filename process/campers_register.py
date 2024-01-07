@@ -92,9 +92,9 @@ def inscribir_camper():
 # ------------------------------------------------------------------------------------
 # crear lista de campers de forma alelatoria
         
-campers_alelatorios = []
+
 def generar_list():
-    
+    campers_alelatorios = []
     for i in range(33):
 
         nota_prueba_teorica=generar_notas_inicial()
@@ -120,14 +120,14 @@ def generar_list():
 #----------------------------------------------------------------------------------------
 # crear lista de inscritos que aprobaron la prueba de admision
 
-inscritos_file_path = os.path.join("data", "inscritos.json")
-if os.path.exists(inscritos_file_path):
-    os.remove(inscritos_file_path)
-
-campers_inscritos = cargar_inscritos_json()
-
-def notas_prueba_inicial():
+def generar_lista_aprobados():
     try:
+        inscritos_file_path = os.path.join("data", "inscritos.json")
+        if os.path.exists(inscritos_file_path):
+            os.remove(inscritos_file_path)
+
+        campers_inscritos = cargar_inscritos_json()
+
         with open("data/campers.json", "r") as file:
             lista_campers = json.load(file)
 

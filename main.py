@@ -2,10 +2,11 @@ from process.campers_register import *
 from tools.menus import *
 from tools.utils import *
 
+generar_list()     # genera la lista de estudiantes de forma alelatoria
+generar_lista_aprobados() # genera lista de campers que aprobaron la prueba de admision
 
 def centro():
-    generar_list()     # genera la lista de estudiantes de forma alelatoria
-    notas_prueba_inicial() # genera lista de campers que aprobaron la prueba de admision
+    
     limpiar_pantalla()    # limpia pantalla
     op=menu_campers()
     if op==1:
