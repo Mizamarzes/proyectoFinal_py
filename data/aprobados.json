@@ -1,77 +1,92 @@
 [
   {
-    "id": 811380954,
+    "id": 215154084,
     "estado": "Aprobado",
-    "nota_prueba_admision": 64.0
+    "nota_prueba_admision": 60.0
   },
   {
-    "id": 236290923,
+    "id": 673154407,
     "estado": "Aprobado",
-    "nota_prueba_admision": 85.5
+    "nota_prueba_admision": 88.0
   },
   {
-    "id": 533241902,
+    "id": 469834866,
     "estado": "Aprobado",
-    "nota_prueba_admision": 64.0
+    "nota_prueba_admision": 70.0
   },
   {
-    "id": 546478780,
+    "id": 656361325,
     "estado": "Aprobado",
-    "nota_prueba_admision": 75.5
+    "nota_prueba_admision": 63.0
   },
   {
-    "id": 563991837,
+    "id": 677449073,
+    "estado": "Aprobado",
+    "nota_prueba_admision": 61.5
+  },
+  {
+    "id": 909925917,
+    "estado": "Aprobado",
+    "nota_prueba_admision": 69.5
+  },
+  {
+    "id": 477289789,
     "estado": "Aprobado",
     "nota_prueba_admision": 68.0
   },
   {
-    "id": 711564819,
-    "estado": "Aprobado",
-    "nota_prueba_admision": 64.5
-  },
-  {
-    "id": 892416684,
-    "estado": "Aprobado",
-    "nota_prueba_admision": 79.5
-  },
-  {
-    "id": 590843130,
-    "estado": "Aprobado",
-    "nota_prueba_admision": 73.5
-  },
-  {
-    "id": 492615534,
-    "estado": "Aprobado",
-    "nota_prueba_admision": 62.0
-  },
-  {
-    "id": 365791184,
-    "estado": "Aprobado",
-    "nota_prueba_admision": 82.0
-  },
-  {
-    "id": 172510850,
-    "estado": "Aprobado",
-    "nota_prueba_admision": 87.5
-  },
-  {
-    "id": 331396493,
-    "estado": "Aprobado",
-    "nota_prueba_admision": 64.0
-  },
-  {
-    "id": 570788986,
-    "estado": "Aprobado",
-    "nota_prueba_admision": 76.0
-  },
-  {
-    "id": 108028548,
-    "estado": "Aprobado",
-    "nota_prueba_admision": 97.0
-  },
-  {
-    "id": 897398094,
+    "id": 973206492,
     "estado": "Aprobado",
     "nota_prueba_admision": 65.0
+  },
+  {
+    "id": 604547427,
+    "estado": "Aprobado",
+    "nota_prueba_admision": 77.5
+  },
+  {
+    "id": 540772014,
+    "estado": "Aprobado",
+    "nota_prueba_admision": 72.5
+  },
+  {
+    "id": 677010230,
+    "estado": "Aprobado",
+    "nota_prueba_admision": 95.5
+  },
+  {
+    "id": 191719042,
+    "estado": "Aprobado",
+    "nota_prueba_admision": 90.0
+  },
+  {
+    "id": 946822879,
+    "estado": "Aprobado",
+    "nota_prueba_admision": 66.0
+  },
+  {
+    "id": 536894439,
+    "estado": "Aprobado",
+    "nota_prueba_admision": 92.0
+  },
+  {
+    "id": 920289295,
+    "estado": "Aprobado",
+    "nota_prueba_admision": 61.5
+  },
+  {
+    "id": 779706216,
+    "estado": "Aprobado",
+    "nota_prueba_admision": 74.0
+  },
+  {
+    "id": 939868163,
+    "estado": "Aprobado",
+    "nota_prueba_admision": 63.0
+  },
+  {
+    "id": 671990822,
+    "estado": "Aprobado",
+    "nota_prueba_admision": 72.5
   }
 ]

@@ -1,0 +1,30 @@
+[
+  {
+    "numero": 1,
+    "area": "Artemis",
+    "trainer": "Camilo",
+    "ruta": "Java",
+    "horario": "Tarde"
+  },
+  {
+    "numero": 2,
+    "area": "Apolo",
+    "trainer": "Maria",
+    "ruta": "NodeJs",
+    "horario": "MaÃ±ana"
+  },
+  {
+    "numero": 3,
+    "area": "Sputnik",
+    "trainer": "Robert",
+    "ruta": "NetCore",
+    "horario": "MaÃ±ana"
+  },
+  {
+    "numero": 4,
+    "area": "Artemis",
+    "trainer": "Carlos",
+    "ruta": "NodeJs",
+    "horario": "Tarde"
+  }
+]

@@ -25,5 +25,4 @@ def crear_nueva_ruta():
     lista_rutas.append(new_ruta)
     save_json(lista_rutas, "rutas.json")
 
-#--------------------------------------------------------------------------------
-# trainers
+

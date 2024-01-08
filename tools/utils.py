@@ -51,7 +51,7 @@ def promedio(a,b,cant):
     b = int(b)
     prom=(a+b)/cant
     return prom
-
+    
 #------------------------------------------------------------------------
 # funciones json
 
@@ -94,14 +94,24 @@ def mostrar_objecto_lista(filename_e):
     for object in lista_object:
         print(object)
 
+# def mostrar_objecto_lista(filename_e):#muestra todas las llaves y devuelve la llave escogida
+#     data=cargar_json(filename_e)
+#     keys=list(data.keys())
+#     n = len(keys)
+
+#     for i, key in enumerate(keys, start=1):
+#         print(f"{i}. {key.replace('_', ' ')}")
+
+#     op = validar_opcion("Opción: ", 1, n)
+#     return keys[op-1]
+
 #--------------------------------------------------------------------
 # limpiar json
         
 def limpiar_json(nombre_archivo):
     ruta_archivo = os.path.join("data", nombre_archivo)
-
     with open(ruta_archivo, "w") as archivo:
         archivo.write("[]")
 
 #------------------------------------------------------------------------
-        
+

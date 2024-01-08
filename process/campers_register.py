@@ -74,7 +74,7 @@ def generar_list():
 
     generar_lista_aprobados(campers_alelatorios_inscritos)
     save_json(campers_alelatorios_inscritos,"inscritos.json")        
-
+    
 
 #--------------------------------------------------------------------------------
 # optimizacion para crear lista de aprobados

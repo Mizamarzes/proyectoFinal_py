@@ -1,6 +1,7 @@
 from process.campers_register import * 
 from process.rutas import *
 from process.trainers import *
+from process.areas_entrenamiento import *
 from tools.menus import *
 from tools.utils import *
 
@@ -52,12 +53,15 @@ def trainers():
 #--------------------------------------------------------------------------------------------------
 limpiar_json("inscritos.json")
 limpiar_json("aprobados.json")
+limpiar_json("areas.json")
 generar_list()   # genera la lista de estudiantes de forma alelatoria y lista de aprobados tambien
+generar_area_entrenamiento() # genera los salones con sus respectivos trainers y demas
 #-------------------------------------------------------------------------------------------------
 
 # zona controladora principal
 
 while True:
+    limpiar_pantalla()
     op=menu_principal()
     if op==1:
         manejar_campers()
