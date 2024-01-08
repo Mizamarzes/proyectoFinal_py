@@ -1,16 +1,22 @@
-import json
-import os
+from tools.utils import *
 
-#----------------------------------------------------------
-# funcion de carga
+#------------------------------------------------------------------------
+# crear trainers
 
-def cargar_trainers_json():
-    try:
-        with open(os.path.join("data", "trainers.json"), 'r') as archivo_json:        
-            lista_trainers = json.load(archivo_json)
-            # print("La lista de inscritos ha sido cargada")
-            return lista_trainers
-    except Exception as e:
-        print(f"Error al cargar el archivo: {e}")
-        return []
+def crear_trainers():
+    lista_trainers = cargar_json("trainers.json")        # cargar el json de los trainers
+
+    id_trainer=int(input("Numero de identificacion: "))
+    nombre_trainer=input("Nombre del trainer:  ")
+    horario=input("Horario: ")
+    ruta=input("Ruta a enseñar: ")
     
+    new_trainer = {
+        "id": id_trainer,
+        "nombre": nombre_trainer,
+        "horario": horario,
+        "ruta": ruta,
+        
+    }
+    lista_trainers.append(new_trainer)
+    save_json(lista_trainers, "trainers.json")

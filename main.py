@@ -1,5 +1,6 @@
 from process.campers_register import * 
 from process.rutas import *
+from process.trainers import *
 from tools.menus import *
 from tools.utils import *
 
@@ -36,6 +37,18 @@ def rutas():
     elif suboption==3:
         print()
 
+def trainers():
+    limpiar_pantalla()
+    suboption=menu_trainers()
+    if suboption==1:
+        crear_trainers()
+        input("Click cualquier tecla [continuar]: ")
+    elif suboption==2:
+        mostrar_objecto_lista("trainers.json")
+        input("Click cualquier tecla [continuar]: ")
+    elif suboption==3:
+        print()
+
 #--------------------------------------------------------------------------------------------------
 limpiar_json("inscritos.json")
 limpiar_json("aprobados.json")
@@ -45,12 +58,13 @@ generar_list()   # genera la lista de estudiantes de forma alelatoria y lista de
 # zona controladora principal
 
 while True:
-    limpiar_pantalla()
     op=menu_principal()
     if op==1:
         manejar_campers()
     elif op==2:
-        rutas()
+        trainers()
     elif op==3:
+        rutas()
+    elif op==4:
         print("Gracias por utilizar nuestro servicio")
         break

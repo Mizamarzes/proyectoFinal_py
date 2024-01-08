@@ -1,4 +1,4 @@
-from process.campers_register import *
+from tools.utils import *
 
 #-------------------------------------------------------------------------
 # agregrar rutas
@@ -24,3 +24,6 @@ def crear_nueva_ruta():
 
     lista_rutas.append(new_ruta)
     save_json(lista_rutas, "rutas.json")
+
+#--------------------------------------------------------------------------------
+# trainers

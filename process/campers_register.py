@@ -1,5 +1,5 @@
 from tools.utils import *
-cont=0
+
 # -------------------------------------------------------------------------------
 # funcion de registrar camper o incribir por unidad
 

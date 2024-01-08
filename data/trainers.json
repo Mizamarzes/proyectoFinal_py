@@ -1,0 +1,26 @@
+[
+  {
+    "id": 146376509,
+    "nombre": "Camilo",
+    "horario": "Tarde",
+    "ruta": "Java"
+  },
+  {
+    "id": 522223500,
+    "nombre": "Maria",
+    "horario": "Mañana",
+    "ruta": "NodeJs"
+  },
+  {
+    "id": 999321507,
+    "nombre": "Robert",
+    "horario": "Mañana",
+    "ruta": "NetCore"
+  },
+  {
+    "id": 10328755889352,
+    "nombre": "Carlos",
+    "horario": "Tarde",
+    "ruta": "NodeJs"
+  }
+]

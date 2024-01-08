@@ -1,12 +1,19 @@
 from tools.utils import *
 
+#-------------------------------------------------------------
+# menu principal
+
 def menu_principal():
     print("----------- Menú Principal-----------")
     print("1. Campers")
-    print("2. Rutas")
-    print("3. Salir")       
-    op=validar_opcion("Opcion: ",1,3)
+    print("2. Trainers")
+    print("3. Rutas")
+    print("4. Salir")       
+    op=validar_opcion("Opcion: ",1,4)
     return op
+
+#----------------------------------------------------------------
+# menus secundarios
 
 def menu_campers():
     print("----------- Menú Campers-----------")
@@ -18,13 +25,6 @@ def menu_campers():
     op=validar_opcion("Opcion: ",1,5)
     return op
 
-def menu_modificar():
-    print("----------- Menú Modificar-----------")
-    print("1. Modificar estado camper")
-    print("2. Salir")
-    op=validar_opcion("Opcion: ",1,2)
-    return op
-
 def menu_rutas():
     print("----------- Menú Rutas-----------")
     print("1. Agregar ruta")
@@ -33,3 +33,20 @@ def menu_rutas():
     op=validar_opcion("Opcion: ",1,3)
     return op
 
+def menu_trainers():
+    print("----------- Menú Modificar-----------")
+    print("1. Agregar Trainer")
+    print("2. Mostrar Trainers")
+    print("3. Salir")
+    op=validar_opcion("Opcion: ",1,3)
+    return op
+
+#-----------------------------------------------------------------
+# menus terciarios
+
+def menu_modificar():
+    print("----------- Menú Modificar-----------")
+    print("1. Modificar estado camper")
+    print("2. Salir")
+    op=validar_opcion("Opcion: ",1,2)
+    return op
