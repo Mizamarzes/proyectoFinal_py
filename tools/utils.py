@@ -75,7 +75,7 @@ def save_json(lista_campers, filename):
     try:
         with open(os.path.join("data", filename), 'w', encoding="utf-8") as archivo_json:
             json.dump(lista_campers, archivo_json, indent=2, ensure_ascii=False)
-            print(f"La lista de {filename} ha sido guardada")
+            # print(f"La lista de {filename} ha sido guardada")
     except FileNotFoundError:
         print(f"El archivo {filename} no existe. Puede que aún no haya campers guardados.")
     except json.JSONDecodeError:

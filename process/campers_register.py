@@ -1,12 +1,11 @@
 from tools.utils import *
 
 # -------------------------------------------------------------------------------
-# funcion de registrar camper unitario
+# funcion de registrar camper o incribir por unidad
 
 def inscribir_camper():
     lista_inscritos = cargar_json("inscritos.json")
-    campers_aprobados=cargar_json("aprobados.json")
-
+   
     id=int(input("Numero de identificacion: "))
     nombre=input("Nombre: ")
     apellidos=input("Apellidos: ")
@@ -16,23 +15,12 @@ def inscribir_camper():
     numCelular=input("Nro celular: ")
     nota_prueba_teorica=input("Nota prueba de admision teorica: ")
     nota_prueba_practica=input("Nota prueba de admision practica: ")
+    estado="Rechazado"
     promedio_nota_inicial = promedio(nota_prueba_teorica, nota_prueba_practica, 2)
-
+    
     if promedio_nota_inicial>=60:
+        generar_lista_aprobados(promedio_nota_inicial,id)
         estado="Aprobado"
-
-        new_camper_aprobado = {
-            "id": id,
-            "estado": estado,
-            "nota_prueba_admision": promedio_nota_inicial
-        }
-
-        
-        campers_aprobados.append(new_camper_aprobado)
-        save_json(campers_aprobados, "aprobados.json")
-
-    else:
-        estado="Rechazado"
 
     new_camper_inscrito={
         'id':id,
@@ -46,12 +34,12 @@ def inscribir_camper():
     }
 
     lista_inscritos.append(new_camper_inscrito)
-    print("Se ha inscrito el camper con exito")
     save_json(lista_inscritos, "inscritos.json")
+    print("Se ha inscrito el camper con exito")
 
 
 # ------------------------------------------------------------------------------------
-# crear lista de campers de forma alelatoria
+# crear lista de inscritos de forma alelatoria
         
 def generar_list():
     campers_alelatorios_inscritos = []
@@ -60,10 +48,10 @@ def generar_list():
         nota_prueba_teorica=generar_notas_inicial()
         nota_prueba_practica=generar_notas_inicial()
         promedio_nota_inicial = promedio(nota_prueba_teorica, nota_prueba_practica, 2)
-        estado = "Aprobado" if promedio_nota_inicial >= 60 else "Rechazado"
+        id=generar_id()
 
         datos = {
-            "id": generar_id(),
+            "id": id,
             "nombre": generar_nombre(),
             "apellidos": generar_apellidos(),
             "direccion": generar_direccion(),
@@ -72,45 +60,39 @@ def generar_list():
             "nota_prueba_admision":promedio_nota_inicial,
             "estado":estado
         }
-        campers_alelatorios_inscritos.append(datos)
 
-    save_json(campers_alelatorios_inscritos,"inscritos.json")
+        if promedio_nota_inicial>=60:
+            generar_lista_aprobados(promedio_nota_inicial,id)
+            estado="Aprobado"
+            campers_alelatorios_inscritos.append(datos)
+        else:
+            estado="Rechazado"
+            campers_alelatorios_inscritos.append(datos)
+            
+    save_json(campers_alelatorios_inscritos,"inscritos.json")        
 
-#----------------------------------------------------------------------------------------
-# crear lista de inscritos que aprobaron la prueba de admision
 
-def generar_lista_aprobados():
-    
+#--------------------------------------------------------------------------------
+# optimizacion para crear lista de aprobados
+
+def generar_lista_aprobados(promedio_nota_inicial,id):
     campers_aprobados=[]
-    lista_inscritos=cargar_json("inscritos.json")
-        
-    for inscrito in lista_inscritos:
-        notas_prueba_teorica = inscrito['nota_prueba_admision']
-        notas_prueba_practica = inscrito['nota_prueba_admision']
-        promedio_nota_inicial = promedio(notas_prueba_teorica, notas_prueba_practica, 2)
+    estado="Aprobado"
+    new_camper_aprobado = {
+        "id": id,
+        "estado": estado,
+        "nota_prueba_admision": promedio_nota_inicial
+    }
 
-        estado = "Aprobado" if promedio_nota_inicial >= 60 else "Rechazado"
-
-        new_camper_aprobado = {
-            "id": inscrito['id'],
-            "estado": estado,
-            "nota_prueba_admision": promedio_nota_inicial
-        }
-
-        if estado == "Aprobado":
-            campers_aprobados.append(new_camper_aprobado)
-    
+    campers_aprobados.append(new_camper_aprobado)    
     save_json(campers_aprobados, "aprobados.json")
 
 # -------------------------------------------------------------------------------
 # modificar campers, lista general
 
 def modificar_camper():
-
     lista_inscritos=cargar_json("inscritos.json")
-    campers_aprobados = cargar_json("aprobados.json")
-        
-    id_a_buscar=int(input("id del camper a modificar: "))
+    id_a_buscar=int(input("Numero de identificacion del camper a modificar: "))
     nuevo_estado=input("Nuevo estado: ")
         
     for camper in lista_inscritos:
@@ -118,20 +100,7 @@ def modificar_camper():
             camper['estado'] = nuevo_estado
             print(f"Estado del camper con id {id_a_buscar} modificado a: {nuevo_estado}")
 
-        if nuevo_estado.lower() == "aprobado":
-            new_camper_aprobado = {
-                "id": camper['id'],
-                "estado": nuevo_estado,
-                "nota_prueba_admision": camper['nota_prueba_admision']
-            }
-            campers_aprobados.append(new_camper_aprobado)
-
-    save_json(campers_aprobados, "aprobado.json")
-
-#-----------------------------------------------------------------------------
-# optimizacion para añadir lista de aprobados
-
-
+        if nuevo_estado=="Aprobado":
+            generar_lista_aprobados(60,id_a_buscar)
         
-
 

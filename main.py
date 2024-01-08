@@ -36,10 +36,9 @@ def rutas():
     elif suboption==3:
         print()
 
-#-----------------------------------------------------------------------------------
-generar_list()     # genera la lista de estudiantes de forma alelatoria
-generar_lista_aprobados() # genera lista de campers que aprobaron la prueba de admision
-#----------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------------------
+generar_list()     # genera la lista de estudiantes de forma alelatoria y lista de aprobados tambien
+#-------------------------------------------------------------------------------------------------
 
 # zona controladora principal
 
