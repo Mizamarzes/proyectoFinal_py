@@ -47,7 +47,7 @@ def inscribir_camper():
         
 def generar_list():
     campers_alelatorios_inscritos = []
-    for i in range(33):
+    for i in range(100):
 
         nota_prueba_teorica=generar_notas_inicial()
         nota_prueba_practica=generar_notas_inicial()
@@ -81,14 +81,16 @@ def generar_list():
 
 def generar_lista_aprobados(lista_campers):
     campers_aprobados = cargar_json("aprobados.json")
-    
+    i=0
     for camper in lista_campers:
         promedio_nota_inicial=camper['nota_prueba_admision']
         estado=camper['estado']
         id_=camper['id']
-
+        
         if promedio_nota_inicial>=60:
+            i=i+1
             new_camper_aprobado = {
+                "numero":i,
                 "id": id_,
                 "estado": estado,
                 "nota_prueba_admision": promedio_nota_inicial

@@ -16,11 +16,5 @@
     "nombre": "Robert",
     "horario": "Mañana",
     "ruta": "NetCore"
-  },
-  {
-    "id": 10328755889352,
-    "nombre": "Carlos",
-    "horario": "Tarde",
-    "ruta": "NodeJs"
   }
 ]
