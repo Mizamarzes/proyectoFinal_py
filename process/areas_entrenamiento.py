@@ -1,54 +1,52 @@
 from tools.utils import *
 
 #------------------------------------------------------------------------
-# crear areas de entrenamiento_____
+# crea grupos
+
+def crear_grupos(inicio, fin):
+    lista_aprobados = cargar_json("aprobados.json")
+    grupo_camper = []
+
+    for i in range(inicio, fin):
+        if i < len(lista_aprobados):
+            camper = lista_aprobados[i]['id']
+            grupo_camper.append(camper)
+
+    return grupo_camper
+
+#-------------------------------------------------------------------------
+# genera el area de entrenamiento con sus respectiva informacion
 
 def generar_area_entrenamiento():
-    lista_areas = cargar_json("areas.json")        # cargar el json de los trainers
+    lista_areas = cargar_json("areas.json")
     lista_trainers = cargar_json("trainers.json")
-    salones=["Artemis", "Apolo", "Sputnik"]
-    j=0;k=0
+    salones = ["Artemis", "Apolo", "Sputnik"]
     
-    for i in lista_trainers:
-        k=k+1 
-        id=k
-        area=salones[j%3]
-        trainer=i['nombre']
-        ruta=i['ruta']
-        horario=i['horario']        
-        j=j+1
-        
-        campers=crear_grupos()
+    cantidad_camper_por_entrenador = 33
+    cantidad_total_camper = cantidad_camper_por_entrenador * len(lista_trainers)
 
-        new_area_entrenamiento = {
-            "numero":id,
-            "area":area,
-            "trainer":trainer,
-            "ruta":ruta,
-            "horario":horario,
-            "campers":campers,
-            "cantidad campers":len(campers)
-        }
+    for j, trainer in enumerate(lista_trainers):
+        id = j + 1
+        area = salones[j % 3]
+        trainer_nombre = trainer['nombre']
+        ruta = trainer['ruta']
+        horario = trainer['horario']
         
+        inicio = j * cantidad_camper_por_entrenador
+        fin = inicio + cantidad_camper_por_entrenador
+        campers = crear_grupos(inicio, fin)
+        
+        new_area_entrenamiento = {
+            "numero": id,
+            "area": area,
+            "trainer": trainer_nombre,
+            "ruta": ruta,
+            "horario": horario,
+            "campers": campers,
+            "cantidad campers": len(campers)
+        }
         
         lista_areas.append(new_area_entrenamiento)
     save_json(lista_areas, "areas.json")
 
-
-
-#-----------------------------------------------------------------
-# crear cada grupo
-        
-def crear_grupos():
-    lista_aprobrados=cargar_json("aprobados.json")
-    grupo_camper=[]
-    cont=0
-
-    for i in lista_aprobrados:
-        cont=cont+1
-        if cont<=33:
-            camper=i['id']
-            grupo_camper.append(camper)
-    
-    return grupo_camper
-        
+#--------------------------------------------------------------------------------

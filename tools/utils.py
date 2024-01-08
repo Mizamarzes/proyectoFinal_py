@@ -44,7 +44,7 @@ def generar_telefono():
     return f"{random.randint(1000000, 9999999)}"
 
 def generar_notas_inicial():
-    return random.randint(20, 100)
+    return random.randint(40, 100)
 
 def promedio(a,b,cant):
     a = int(a)
