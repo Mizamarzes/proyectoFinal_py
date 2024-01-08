@@ -13,10 +13,10 @@ def manejar_campers():
         inscribir_camper()
         input("Click cualquier tecla [continuar]: ")
     elif suboption==2:
-        mostrar_objecto_lista("campers.json")
+        mostrar_objecto_lista("inscritos.json")
         input("Click cualquier tecla [continuar]: ")
     elif suboption==3:
-        mostrar_objecto_lista("inscritos.json")
+        mostrar_objecto_lista("aprobados.json")
         input("Click cualquier tecla [continuar]: ")
     elif suboption==4:
         modificar_camper()
