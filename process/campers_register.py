@@ -1,5 +1,5 @@
 from tools.utils import *
-
+cont=0
 # -------------------------------------------------------------------------------
 # funcion de registrar camper o incribir por unidad
 
@@ -49,6 +49,7 @@ def generar_list():
         nota_prueba_practica=generar_notas_inicial()
         promedio_nota_inicial = promedio(nota_prueba_teorica, nota_prueba_practica, 2)
         id=generar_id()
+        estado="Rechazado"
 
         datos = {
             "id": id,
@@ -60,7 +61,7 @@ def generar_list():
             "nota_prueba_admision":promedio_nota_inicial,
             "estado":estado
         }
-
+        
         if promedio_nota_inicial>=60:
             generar_lista_aprobados(promedio_nota_inicial,id)
             estado="Aprobado"
@@ -76,6 +77,8 @@ def generar_list():
 # optimizacion para crear lista de aprobados
 
 def generar_lista_aprobados(promedio_nota_inicial,id):
+    global cont
+    cont+=1
     campers_aprobados=[]
     estado="Aprobado"
     new_camper_aprobado = {
@@ -85,7 +88,9 @@ def generar_lista_aprobados(promedio_nota_inicial,id):
     }
 
     campers_aprobados.append(new_camper_aprobado)    
-    save_json(campers_aprobados, "aprobados.json")
+    
+    if cont>=33:
+        save_json(campers_aprobados, "aprobados.json")
 
 # -------------------------------------------------------------------------------
 # modificar campers, lista general

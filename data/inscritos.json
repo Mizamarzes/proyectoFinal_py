@@ -1,431 +1,431 @@
 [
   {
-    "id": 960920776,
-    "nombre": "Javier",
-    "apellidos": "Pérez",
-    "direccion": "52 Carrera F",
-    "acudiente": "Padre de Laura Fernández",
+    "id": 783475554,
+    "nombre": "Pedro",
+    "apellidos": "Gómez",
+    "direccion": "28 Avenida B",
+    "acudiente": "Padre de Alejandro Gutiérrez",
     "telefono": [
-      "8775184",
-      "9696197"
+      "6491482",
+      "9504745"
     ],
-    "nota_prueba_admision": 27.5,
+    "nota_prueba_admision": 55.5,
     "estado": "Rechazado"
   },
   {
-    "id": 358254418,
-    "nombre": "Alejandro",
-    "apellidos": "Rodríguez",
-    "direccion": "84 Carrera C",
-    "acudiente": "Tío de Lucía López",
+    "id": 680001104,
+    "nombre": "Pedro",
+    "apellidos": "López",
+    "direccion": "97 Avenida B",
+    "acudiente": "Padre de Rosa Gutiérrez",
     "telefono": [
-      "9419412",
-      "1841867"
+      "1283532",
+      "6613948"
     ],
     "nota_prueba_admision": 68.5,
     "estado": "Rechazado"
   },
   {
-    "id": 969095366,
-    "nombre": "Isabel",
-    "apellidos": "Cruz",
-    "direccion": "28 Carrera C",
-    "acudiente": "Tío de David Hernández",
-    "telefono": [
-      "4854187",
-      "9243397"
-    ],
-    "nota_prueba_admision": 81.5,
-    "estado": "Rechazado"
-  },
-  {
-    "id": 412628768,
-    "nombre": "Rosa",
-    "apellidos": "Díaz",
-    "direccion": "36 Carrera F",
-    "acudiente": "Tía de Elena Sánchez",
-    "telefono": [
-      "8766371",
-      "3704576"
-    ],
-    "nota_prueba_admision": 43.5,
-    "estado": "Rechazado"
-  },
-  {
-    "id": 930542081,
-    "nombre": "Rosa",
-    "apellidos": "Gómez",
-    "direccion": "25 Carrera C",
-    "acudiente": "Abuelo de Juan López",
-    "telefono": [
-      "4088583",
-      "1484022"
-    ],
-    "nota_prueba_admision": 59.5,
-    "estado": "Rechazado"
-  },
-  {
-    "id": 121012606,
-    "nombre": "David",
-    "apellidos": "Díaz",
-    "direccion": "64 Avenida B",
-    "acudiente": "Padre de Carlos Morales",
-    "telefono": [
-      "4569507",
-      "7920700"
-    ],
-    "nota_prueba_admision": 70.5,
-    "estado": "Rechazado"
-  },
-  {
-    "id": 648175395,
-    "nombre": "Miguel",
-    "apellidos": "Ortega",
-    "direccion": "63 Calle A",
-    "acudiente": "Abuelo de Laura Gómez",
-    "telefono": [
-      "4635202",
-      "7127257"
-    ],
-    "nota_prueba_admision": 56.5,
-    "estado": "Rechazado"
-  },
-  {
-    "id": 270822177,
-    "nombre": "Carlos",
-    "apellidos": "Fernández",
-    "direccion": "7 Carrera F",
-    "acudiente": "Tío de Alejandro Cruz",
-    "telefono": [
-      "5551645",
-      "4667238"
-    ],
-    "nota_prueba_admision": 73.5,
-    "estado": "Rechazado"
-  },
-  {
-    "id": 819731004,
-    "nombre": "Rosa",
-    "apellidos": "Cruz",
-    "direccion": "96 Carrera C",
-    "acudiente": "Abuelo de Isabel Ortega",
-    "telefono": [
-      "2708331",
-      "6987937"
-    ],
-    "nota_prueba_admision": 43.0,
-    "estado": "Rechazado"
-  },
-  {
-    "id": 410775986,
+    "id": 913045821,
     "nombre": "Ana",
     "apellidos": "Ortega",
-    "direccion": "100 Avenida B",
-    "acudiente": "Tía de Carlos López",
+    "direccion": "37 Avenida E",
+    "acudiente": "Tía de David Ramírez",
     "telefono": [
-      "3846397",
-      "1593180"
+      "2573813",
+      "6693234"
     ],
-    "nota_prueba_admision": 52.5,
+    "nota_prueba_admision": 65.5,
     "estado": "Rechazado"
   },
   {
-    "id": 185686373,
-    "nombre": "Elena",
-    "apellidos": "Fernández",
-    "direccion": "27 Avenida E",
-    "acudiente": "Tía de Juan Díaz",
+    "id": 783212878,
+    "nombre": "Juan",
+    "apellidos": "Jiménez",
+    "direccion": "34 Calle D",
+    "acudiente": "Padre de María Pérez",
     "telefono": [
-      "7742059",
-      "3515812"
+      "8255216",
+      "2632297"
     ],
-    "nota_prueba_admision": 43.0,
+    "nota_prueba_admision": 47.5,
     "estado": "Rechazado"
   },
   {
-    "id": 689839567,
+    "id": 676007952,
     "nombre": "Isabel",
     "apellidos": "Rodríguez",
-    "direccion": "3 Calle D",
-    "acudiente": "Padre de Carlos Gutiérrez",
+    "direccion": "50 Carrera C",
+    "acudiente": "Tío de Ana Fernández",
     "telefono": [
-      "1237758",
-      "8120440"
+      "7619036",
+      "2114122"
     ],
-    "nota_prueba_admision": 26.5,
+    "nota_prueba_admision": 35.0,
     "estado": "Rechazado"
   },
   {
-    "id": 929272012,
-    "nombre": "Javier",
-    "apellidos": "Sánchez",
-    "direccion": "24 Carrera F",
-    "acudiente": "Madre de María Sánchez",
+    "id": 355021567,
+    "nombre": "Juan",
+    "apellidos": "Jiménez",
+    "direccion": "25 Calle A",
+    "acudiente": "Tío de Alejandro Cruz",
     "telefono": [
-      "7348775",
-      "3495875"
+      "9968478",
+      "7840915"
     ],
-    "nota_prueba_admision": 67.5,
+    "nota_prueba_admision": 47.5,
     "estado": "Rechazado"
   },
   {
-    "id": 611729796,
-    "nombre": "María",
-    "apellidos": "Pérez",
-    "direccion": "66 Carrera C",
-    "acudiente": "Tía de Juan Gutiérrez",
-    "telefono": [
-      "9322731",
-      "7679363"
-    ],
-    "nota_prueba_admision": 68.0,
-    "estado": "Rechazado"
-  },
-  {
-    "id": 834920613,
-    "nombre": "Laura",
-    "apellidos": "Morales",
-    "direccion": "44 Avenida B",
-    "acudiente": "Tía de Lucía Sánchez",
-    "telefono": [
-      "2228162",
-      "3733647"
-    ],
-    "nota_prueba_admision": 87.0,
-    "estado": "Rechazado"
-  },
-  {
-    "id": 129589649,
-    "nombre": "Elena",
-    "apellidos": "López",
-    "direccion": "62 Avenida E",
-    "acudiente": "Madre de Miguel Ortega",
-    "telefono": [
-      "3940416",
-      "8483335"
-    ],
-    "nota_prueba_admision": 73.0,
-    "estado": "Rechazado"
-  },
-  {
-    "id": 102556139,
+    "id": 920006642,
     "nombre": "David",
-    "apellidos": "Pérez",
-    "direccion": "1 Carrera F",
-    "acudiente": "Padre de Miguel Morales",
+    "apellidos": "Martínez",
+    "direccion": "81 Carrera F",
+    "acudiente": "Abuelo de Elena Martínez",
     "telefono": [
-      "3760079",
-      "3988258"
+      "1433557",
+      "3591964"
+    ],
+    "nota_prueba_admision": 95.0,
+    "estado": "Rechazado"
+  },
+  {
+    "id": 956188108,
+    "nombre": "Javier",
+    "apellidos": "Pérez",
+    "direccion": "75 Avenida B",
+    "acudiente": "Abuela de Laura Rodríguez",
+    "telefono": [
+      "7443568",
+      "8058692"
     ],
     "nota_prueba_admision": 61.5,
     "estado": "Rechazado"
   },
   {
-    "id": 454114263,
-    "nombre": "Ana",
-    "apellidos": "Morales",
-    "direccion": "5 Avenida B",
-    "acudiente": "Tío de Miguel Gómez",
-    "telefono": [
-      "7080724",
-      "2951783"
-    ],
-    "nota_prueba_admision": 53.0,
-    "estado": "Rechazado"
-  },
-  {
-    "id": 212642776,
+    "id": 764865825,
     "nombre": "Javier",
     "apellidos": "Díaz",
-    "direccion": "98 Calle A",
-    "acudiente": "Tía de Juan Pérez",
+    "direccion": "57 Calle D",
+    "acudiente": "Padre de María Jiménez",
     "telefono": [
-      "6550787",
-      "1194122"
+      "9133898",
+      "2821677"
     ],
-    "nota_prueba_admision": 48.5,
+    "nota_prueba_admision": 56.5,
     "estado": "Rechazado"
   },
   {
-    "id": 120904640,
-    "nombre": "Ana",
-    "apellidos": "Hernández",
-    "direccion": "29 Carrera F",
-    "acudiente": "Tío de Sofía Pérez",
-    "telefono": [
-      "4545260",
-      "6025424"
-    ],
-    "nota_prueba_admision": 45.5,
-    "estado": "Rechazado"
-  },
-  {
-    "id": 116172055,
-    "nombre": "Juan",
-    "apellidos": "Gutiérrez",
-    "direccion": "30 Carrera F",
-    "acudiente": "Tía de Lucía Gómez",
-    "telefono": [
-      "2373464",
-      "5307447"
-    ],
-    "nota_prueba_admision": 46.5,
-    "estado": "Rechazado"
-  },
-  {
-    "id": 584703880,
-    "nombre": "Pedro",
-    "apellidos": "Hernández",
-    "direccion": "48 Carrera C",
-    "acudiente": "Madre de Ana Jiménez",
-    "telefono": [
-      "3511657",
-      "9757101"
-    ],
-    "nota_prueba_admision": 85.0,
-    "estado": "Rechazado"
-  },
-  {
-    "id": 392084716,
-    "nombre": "Carlos",
-    "apellidos": "Hernández",
-    "direccion": "83 Calle D",
-    "acudiente": "Tío de Rosa Rodríguez",
-    "telefono": [
-      "5840552",
-      "7061865"
-    ],
-    "nota_prueba_admision": 69.5,
-    "estado": "Rechazado"
-  },
-  {
-    "id": 848577221,
-    "nombre": "Alejandro",
-    "apellidos": "Fernández",
-    "direccion": "89 Carrera F",
-    "acudiente": "Tío de Javier Jiménez",
-    "telefono": [
-      "6372983",
-      "2884963"
-    ],
-    "nota_prueba_admision": 67.0,
-    "estado": "Rechazado"
-  },
-  {
-    "id": 897957477,
-    "nombre": "Elena",
-    "apellidos": "Rodríguez",
-    "direccion": "30 Carrera C",
-    "acudiente": "Abuelo de María López",
-    "telefono": [
-      "5054431",
-      "3309717"
-    ],
-    "nota_prueba_admision": 94.5,
-    "estado": "Rechazado"
-  },
-  {
-    "id": 442459603,
-    "nombre": "Rosa",
-    "apellidos": "Ortega",
-    "direccion": "27 Carrera F",
-    "acudiente": "Padre de Javier Díaz",
-    "telefono": [
-      "4920497",
-      "9362220"
-    ],
-    "nota_prueba_admision": 89.0,
-    "estado": "Rechazado"
-  },
-  {
-    "id": 719642367,
-    "nombre": "Elena",
-    "apellidos": "Jiménez",
-    "direccion": "84 Avenida E",
-    "acudiente": "Abuela de Miguel Sánchez",
-    "telefono": [
-      "2855157",
-      "5025495"
-    ],
-    "nota_prueba_admision": 52.0,
-    "estado": "Rechazado"
-  },
-  {
-    "id": 857146224,
-    "nombre": "Elena",
-    "apellidos": "Sánchez",
-    "direccion": "21 Carrera F",
-    "acudiente": "Abuela de Rosa Gómez",
-    "telefono": [
-      "4157576",
-      "2465384"
-    ],
-    "nota_prueba_admision": 83.0,
-    "estado": "Rechazado"
-  },
-  {
-    "id": 264939832,
-    "nombre": "Laura",
-    "apellidos": "Rodríguez",
-    "direccion": "59 Calle A",
-    "acudiente": "Tío de David Hernández",
-    "telefono": [
-      "2805908",
-      "2216605"
-    ],
-    "nota_prueba_admision": 78.5,
-    "estado": "Rechazado"
-  },
-  {
-    "id": 336929527,
-    "nombre": "Rosa",
-    "apellidos": "López",
-    "direccion": "82 Avenida B",
-    "acudiente": "Tío de María Sánchez",
-    "telefono": [
-      "5690448",
-      "3162915"
-    ],
-    "nota_prueba_admision": 67.0,
-    "estado": "Rechazado"
-  },
-  {
-    "id": 842087170,
+    "id": 953427496,
     "nombre": "Isabel",
-    "apellidos": "Morales",
-    "direccion": "8 Avenida E",
-    "acudiente": "Abuela de Alejandro Ramírez",
+    "apellidos": "Pérez",
+    "direccion": "17 Avenida E",
+    "acudiente": "Padre de David Gómez",
     "telefono": [
-      "7916581",
-      "9571220"
+      "4629287",
+      "2963124"
+    ],
+    "nota_prueba_admision": 61.5,
+    "estado": "Rechazado"
+  },
+  {
+    "id": 118110600,
+    "nombre": "David",
+    "apellidos": "Cruz",
+    "direccion": "67 Avenida B",
+    "acudiente": "Tío de Elena Cruz",
+    "telefono": [
+      "6758409",
+      "4311209"
     ],
     "nota_prueba_admision": 59.0,
     "estado": "Rechazado"
   },
   {
-    "id": 470193576,
-    "nombre": "Lucía",
-    "apellidos": "Gómez",
-    "direccion": "34 Avenida B",
-    "acudiente": "Abuelo de Laura Rodríguez",
+    "id": 179755491,
+    "nombre": "Javier",
+    "apellidos": "Ortega",
+    "direccion": "44 Carrera F",
+    "acudiente": "Madre de Isabel Pérez",
     "telefono": [
-      "9448037",
-      "2267930"
+      "4152997",
+      "8058819"
     ],
     "nota_prueba_admision": 60.0,
     "estado": "Rechazado"
   },
   {
-    "id": 181443104,
-    "nombre": "Laura",
+    "id": 802663722,
+    "nombre": "Alejandro",
     "apellidos": "Jiménez",
-    "direccion": "53 Avenida B",
-    "acudiente": "Padre de Isabel Ortega",
+    "direccion": "79 Carrera F",
+    "acudiente": "Padre de María Díaz",
     "telefono": [
-      "7293947",
-      "4801184"
+      "1583688",
+      "5665175"
     ],
-    "nota_prueba_admision": 95.0,
+    "nota_prueba_admision": 58.5,
+    "estado": "Rechazado"
+  },
+  {
+    "id": 515398240,
+    "nombre": "Lucía",
+    "apellidos": "Ramírez",
+    "direccion": "15 Calle D",
+    "acudiente": "Abuela de Carlos Gómez",
+    "telefono": [
+      "4431161",
+      "8808732"
+    ],
+    "nota_prueba_admision": 63.5,
+    "estado": "Rechazado"
+  },
+  {
+    "id": 494642403,
+    "nombre": "Laura",
+    "apellidos": "Sánchez",
+    "direccion": "49 Calle A",
+    "acudiente": "Abuelo de Ana Ortega",
+    "telefono": [
+      "6011006",
+      "3066609"
+    ],
+    "nota_prueba_admision": 68.5,
+    "estado": "Rechazado"
+  },
+  {
+    "id": 433125144,
+    "nombre": "David",
+    "apellidos": "Sánchez",
+    "direccion": "15 Carrera F",
+    "acudiente": "Padre de Rosa Gutiérrez",
+    "telefono": [
+      "9567621",
+      "8749802"
+    ],
+    "nota_prueba_admision": 72.5,
+    "estado": "Rechazado"
+  },
+  {
+    "id": 486985171,
+    "nombre": "Javier",
+    "apellidos": "Morales",
+    "direccion": "74 Carrera C",
+    "acudiente": "Tío de Javier Jiménez",
+    "telefono": [
+      "1246853",
+      "4485942"
+    ],
+    "nota_prueba_admision": 66.0,
+    "estado": "Rechazado"
+  },
+  {
+    "id": 382110766,
+    "nombre": "Ana",
+    "apellidos": "López",
+    "direccion": "1 Avenida E",
+    "acudiente": "Madre de Ana Ramírez",
+    "telefono": [
+      "6620157",
+      "6940087"
+    ],
+    "nota_prueba_admision": 25.5,
+    "estado": "Rechazado"
+  },
+  {
+    "id": 448382739,
+    "nombre": "Alejandro",
+    "apellidos": "Fernández",
+    "direccion": "98 Avenida B",
+    "acudiente": "Tía de Alejandro Rodríguez",
+    "telefono": [
+      "5161546",
+      "3838257"
+    ],
+    "nota_prueba_admision": 64.5,
+    "estado": "Rechazado"
+  },
+  {
+    "id": 686354053,
+    "nombre": "Isabel",
+    "apellidos": "Sánchez",
+    "direccion": "6 Carrera C",
+    "acudiente": "Tío de Pedro Pérez",
+    "telefono": [
+      "2918121",
+      "4682482"
+    ],
+    "nota_prueba_admision": 37.5,
+    "estado": "Rechazado"
+  },
+  {
+    "id": 441510202,
+    "nombre": "Sofía",
+    "apellidos": "Ramírez",
+    "direccion": "62 Calle D",
+    "acudiente": "Tía de Javier Gutiérrez",
+    "telefono": [
+      "2555603",
+      "2874074"
+    ],
+    "nota_prueba_admision": 38.0,
+    "estado": "Rechazado"
+  },
+  {
+    "id": 263004493,
+    "nombre": "David",
+    "apellidos": "Ortega",
+    "direccion": "98 Avenida B",
+    "acudiente": "Tío de Isabel Ortega",
+    "telefono": [
+      "5276666",
+      "3663854"
+    ],
+    "nota_prueba_admision": 50.5,
+    "estado": "Rechazado"
+  },
+  {
+    "id": 356564191,
+    "nombre": "Miguel",
+    "apellidos": "Sánchez",
+    "direccion": "23 Carrera F",
+    "acudiente": "Abuelo de Miguel López",
+    "telefono": [
+      "7789917",
+      "1193779"
+    ],
+    "nota_prueba_admision": 64.5,
+    "estado": "Rechazado"
+  },
+  {
+    "id": 742797633,
+    "nombre": "Lucía",
+    "apellidos": "Gutiérrez",
+    "direccion": "94 Carrera F",
+    "acudiente": "Tío de Pedro Gutiérrez",
+    "telefono": [
+      "8807517",
+      "4374039"
+    ],
+    "nota_prueba_admision": 63.0,
+    "estado": "Rechazado"
+  },
+  {
+    "id": 454082388,
+    "nombre": "Carlos",
+    "apellidos": "Gutiérrez",
+    "direccion": "62 Calle A",
+    "acudiente": "Madre de Miguel Hernández",
+    "telefono": [
+      "9009252",
+      "3736808"
+    ],
+    "nota_prueba_admision": 67.5,
+    "estado": "Rechazado"
+  },
+  {
+    "id": 472033198,
+    "nombre": "Juan",
+    "apellidos": "Gutiérrez",
+    "direccion": "80 Carrera C",
+    "acudiente": "Abuelo de María Rodríguez",
+    "telefono": [
+      "2184967",
+      "6801449"
+    ],
+    "nota_prueba_admision": 48.5,
+    "estado": "Rechazado"
+  },
+  {
+    "id": 238486600,
+    "nombre": "Javier",
+    "apellidos": "Gómez",
+    "direccion": "42 Avenida E",
+    "acudiente": "Madre de Lucía Jiménez",
+    "telefono": [
+      "4154137",
+      "9787248"
+    ],
+    "nota_prueba_admision": 61.5,
+    "estado": "Rechazado"
+  },
+  {
+    "id": 858412590,
+    "nombre": "Elena",
+    "apellidos": "López",
+    "direccion": "77 Carrera C",
+    "acudiente": "Padre de Alejandro Ramírez",
+    "telefono": [
+      "6426009",
+      "5997660"
+    ],
+    "nota_prueba_admision": 50.5,
+    "estado": "Rechazado"
+  },
+  {
+    "id": 917065856,
+    "nombre": "Pedro",
+    "apellidos": "Rodríguez",
+    "direccion": "46 Avenida B",
+    "acudiente": "Padre de Rosa Pérez",
+    "telefono": [
+      "6261759",
+      "2770546"
+    ],
+    "nota_prueba_admision": 43.0,
+    "estado": "Rechazado"
+  },
+  {
+    "id": 259838418,
+    "nombre": "Laura",
+    "apellidos": "Ramírez",
+    "direccion": "80 Carrera F",
+    "acudiente": "Tía de Elena Cruz",
+    "telefono": [
+      "5425653",
+      "5969206"
+    ],
+    "nota_prueba_admision": 62.5,
+    "estado": "Rechazado"
+  },
+  {
+    "id": 902861408,
+    "nombre": "Lucía",
+    "apellidos": "Hernández",
+    "direccion": "84 Calle A",
+    "acudiente": "Abuela de Sofía Ramírez",
+    "telefono": [
+      "3366093",
+      "4939428"
+    ],
+    "nota_prueba_admision": 71.0,
+    "estado": "Rechazado"
+  },
+  {
+    "id": 913129932,
+    "nombre": "Javier",
+    "apellidos": "Cruz",
+    "direccion": "58 Carrera C",
+    "acudiente": "Abuelo de Elena López",
+    "telefono": [
+      "8548512",
+      "8028568"
+    ],
+    "nota_prueba_admision": 53.0,
+    "estado": "Rechazado"
+  },
+  {
+    "id": 644196132,
+    "nombre": "Rosa",
+    "apellidos": "Gutiérrez",
+    "direccion": "93 Carrera F",
+    "acudiente": "Abuela de Rosa Cruz",
+    "telefono": [
+      "5031093",
+      "9577996"
+    ],
+    "nota_prueba_admision": 73.0,
     "estado": "Rechazado"
   }
 ]
