@@ -1,7 +1,97 @@
 [
   {
-    "id": 181443104,
+    "id": 678672815,
     "estado": "Aprobado",
-    "nota_prueba_admision": 95.0
+    "nota_prueba_admision": 92.0
+  },
+  {
+    "id": 125394180,
+    "estado": "Aprobado",
+    "nota_prueba_admision": 94.0
+  },
+  {
+    "id": 113482998,
+    "estado": "Aprobado",
+    "nota_prueba_admision": 77.5
+  },
+  {
+    "id": 532584426,
+    "estado": "Aprobado",
+    "nota_prueba_admision": 82.0
+  },
+  {
+    "id": 139351524,
+    "estado": "Aprobado",
+    "nota_prueba_admision": 65.5
+  },
+  {
+    "id": 794763496,
+    "estado": "Aprobado",
+    "nota_prueba_admision": 90.0
+  },
+  {
+    "id": 837602315,
+    "estado": "Aprobado",
+    "nota_prueba_admision": 75.5
+  },
+  {
+    "id": 612058384,
+    "estado": "Aprobado",
+    "nota_prueba_admision": 84.0
+  },
+  {
+    "id": 465203118,
+    "estado": "Aprobado",
+    "nota_prueba_admision": 61.5
+  },
+  {
+    "id": 425015349,
+    "estado": "Aprobado",
+    "nota_prueba_admision": 67.5
+  },
+  {
+    "id": 407740074,
+    "estado": "Aprobado",
+    "nota_prueba_admision": 62.5
+  },
+  {
+    "id": 941379999,
+    "estado": "Aprobado",
+    "nota_prueba_admision": 75.0
+  },
+  {
+    "id": 618303593,
+    "estado": "Aprobado",
+    "nota_prueba_admision": 65.0
+  },
+  {
+    "id": 840891674,
+    "estado": "Aprobado",
+    "nota_prueba_admision": 64.0
+  },
+  {
+    "id": 641983556,
+    "estado": "Aprobado",
+    "nota_prueba_admision": 70.0
+  },
+  {
+    "id": 714183163,
+    "estado": "Aprobado",
+    "nota_prueba_admision": 65.5
+  },
+  {
+    "id": 795726349,
+    "estado": "Aprobado",
+    "nota_prueba_admision": 72.5
+  },
+  {
+    "id": 763211105,
+    "estado": "Aprobado",
+    "nota_prueba_admision": 60.5
+  },
+  {
+    "id": 12412,
+    "estado": "Aprobado",
+    "nota_prueba_admision": 93.5
   }
 ]

@@ -37,7 +37,9 @@ def rutas():
         print()
 
 #--------------------------------------------------------------------------------------------------
-generar_list()     # genera la lista de estudiantes de forma alelatoria y lista de aprobados tambien
+limpiar_json("inscritos.json")
+limpiar_json("aprobados.json")
+generar_list()   # genera la lista de estudiantes de forma alelatoria y lista de aprobados tambien
 #-------------------------------------------------------------------------------------------------
 
 # zona controladora principal

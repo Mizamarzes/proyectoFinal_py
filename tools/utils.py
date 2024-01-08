@@ -95,3 +95,13 @@ def mostrar_objecto_lista(filename_e):
         print(object)
 
 #--------------------------------------------------------------------
+# limpiar json
+        
+def limpiar_json(nombre_archivo):
+    ruta_archivo = os.path.join("data", nombre_archivo)
+
+    with open(ruta_archivo, "w") as archivo:
+        archivo.write("[]")
+
+#------------------------------------------------------------------------
+        
