@@ -23,12 +23,13 @@ def menu_modificar():
     print("1. Modificar estado camper")
     print("2. Salir")
     op=validar_opcion("Opcion: ",1,2)
+    return op
 
 def menu_rutas():
-    print("----------- Menú Modificar-----------")
+    print("----------- Menú Rutas-----------")
     print("1. Agregar ruta")
     print("2. Mostrar rutas")
     print("3. Salir")
     op=validar_opcion("Opcion: ",1,3)
-
+    return op
 

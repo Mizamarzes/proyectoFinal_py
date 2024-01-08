@@ -1,5 +1,6 @@
 import json
 import os
+from campers_register import cargar_json, save_json
 
 #-------------------------------------------------------------
 # funciones de carga de json

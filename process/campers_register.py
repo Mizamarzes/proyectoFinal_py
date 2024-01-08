@@ -5,26 +5,15 @@ from tools.utils import *
 # ------------------------------------------------------------------------------
 # funciones de carga de json
 
-def cargar_campers_json():
+def cargar_json(filename_path):
     try:
-        with open(os.path.join("data", "campers.json"), 'r') as archivo_json:        
+        with open(os.path.join("data", filename_path), 'r') as archivo_json:        
             lista_campers = json.load(archivo_json)
             # print("La lista de inscritos ha sido cargada")
             return lista_campers
     except Exception as e:
         print(f"Error al cargar el archivo: {e}")
         return []
-    
-def cargar_inscritos_json():
-    try:
-        with open(os.path.join("data", "inscritos.json"), 'r') as archivo_json:        
-            campers_inscritos = json.load(archivo_json)
-            # print("La lista de aprobados ha sido cargada")
-            return campers_inscritos
-    except Exception as e:
-        print(f"Error al cargar el archivo: {e}")
-        return []
-
 
 #-------------------------------------------------------------------------------
 # funcion de guardar json
@@ -45,7 +34,7 @@ def save_json(lista_campers, filename):
 # funcion de registrar camper unitario
 
 def inscribir_camper():
-    lista_campers = cargar_campers_json()
+    lista_campers = cargar_json("campers.json")
 
     id=int(input("Numero de identificacion: "))
     nombre=input("Nombre: ")
@@ -67,7 +56,7 @@ def inscribir_camper():
             "nota_prueba_admision": promedio_nota_inicial
         }
 
-        campers_inscritos=cargar_inscritos_json()
+        campers_inscritos=cargar_json("inscritos.json")
         campers_inscritos.append(new_camper_inscritos)
         save_json(campers_inscritos, "inscritos.json")
 
@@ -127,7 +116,7 @@ def generar_lista_aprobados():
         if os.path.exists(inscritos_file_path):
             os.remove(inscritos_file_path)
 
-        campers_inscritos = cargar_inscritos_json()
+        campers_inscritos = cargar_json("inscritos.json")
 
         with open("data/campers.json", "r") as file:
             lista_campers = json.load(file)
@@ -163,13 +152,13 @@ def generar_lista_aprobados():
 # funciones para mostrar
 
 def mostrar_campers():
-    lista_campers = cargar_campers_json()
+    lista_campers = cargar_json("campers.json")
     print("Lista de campers: ")
     for camper in lista_campers:
         print(camper)
 
 def mostrar_inscritos():
-    campers_inscritos = cargar_inscritos_json()
+    campers_inscritos = cargar_json("inscritos.json")
     print("Lista de inscritos: ")
     for inscrito in campers_inscritos:
         print(inscrito)
@@ -180,8 +169,8 @@ def mostrar_inscritos():
 def modificar_camper():
 
     try:
-        campers_inscritos = cargar_inscritos_json()
-        lista_campers=cargar_campers_json()
+        campers_inscritos = cargar_json("inscritos.json")
+        lista_campers=cargar_json("campers.json")
         id_a_buscar=int(input("id del camper a modificar: "))
         nuevo_estado=input("Nuevo estado: ")
         
