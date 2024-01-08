@@ -57,5 +57,13 @@
       "Mysql",
       " MongoDb y Postgresql"
     ]
+  },
+  {
+    "nombre": "ksajdk",
+    "fundamentos_de_progamacion": "ajksdalkd",
+    "programacion_web": "adlak",
+    "programacion_formal": "akdl",
+    "bases_de_datos": "adskl",
+    "backend": "askdl"
   }
 ]

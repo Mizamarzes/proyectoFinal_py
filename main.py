@@ -7,16 +7,16 @@ from tools.utils import *
 # funciones de control secundarias
 
 def manejar_campers():
-	# limpia pantalla
+    limpiar_pantalla() # limpia pantalla
     suboption=menu_campers()
     if suboption==1:
         inscribir_camper()
         input("Click cualquier tecla [continuar]: ")
     elif suboption==2:
-        mostrar_campers()
+        mostrar_objecto_lista("campers.json")
         input("Click cualquier tecla [continuar]: ")
     elif suboption==3:
-        mostrar_inscritos()
+        mostrar_objecto_lista("inscritos.json")
         input("Click cualquier tecla [continuar]: ")
     elif suboption==4:
         modificar_camper()
@@ -25,12 +25,13 @@ def manejar_campers():
         print()
 
 def rutas():
+    limpiar_pantalla()
     suboption=menu_rutas()
     if suboption==1:
         crear_nueva_ruta()
         input("Click cualquier tecla [continuar]: ")
     elif suboption==2:
-        mostrar_rutas()
+        mostrar_objecto_lista("rutas.json")
         input("Click cualquier tecla [continuar]: ")
     elif suboption==3:
         print()
@@ -43,6 +44,7 @@ generar_lista_aprobados() # genera lista de campers que aprobaron la prueba de a
 # zona controladora principal
 
 while True:
+    limpiar_pantalla()
     op=menu_principal()
     if op==1:
         manejar_campers()

@@ -1,5 +1,8 @@
-import random, os
-    
+import random, os, json
+
+#---------------------------------------------------------------------------
+# necesidades varias
+
 def numero_alelatorio():
     num_random=random.randint(0,2)
     return num_random
@@ -48,3 +51,47 @@ def promedio(a,b,cant):
     b = int(b)
     prom=(a+b)/cant
     return prom
+
+#------------------------------------------------------------------------
+# funciones json
+
+# cargar los json
+
+def cargar_json(filename_path):
+    try:
+        with open(os.path.join("data", filename_path), 'r') as archivo_json:        
+            lista_campers = json.load(archivo_json)
+            # print("La lista de inscritos ha sido cargada")
+            return lista_campers
+    except Exception as e:
+        print(f"Error al cargar el archivo: {e}")
+        return []
+    
+# ------------------------------------------------------------------------
+
+# save json
+    
+def save_json(lista_campers, filename):
+    try:
+        with open(os.path.join("data", filename), 'w', encoding="utf-8") as archivo_json:
+            json.dump(lista_campers, archivo_json, indent=2, ensure_ascii=False)
+            print(f"La lista de {filename} ha sido guardada")
+    except FileNotFoundError:
+        print(f"El archivo {filename} no existe. Puede que aún no haya campers guardados.")
+    except json.JSONDecodeError:
+        print(f"Error al decodificar el archivo JSON {filename}. El formato podría ser incorrecto.")
+    except Exception as e:
+        print(f"Error desconocido al guardar {filename}: {e}")
+
+
+#-----------------------------------------------------------------------
+
+# mostrar listas de campers y demas
+
+def mostrar_objecto_lista(filename_e):
+    lista_object = cargar_json(filename_e)
+    print("Listado: ")
+    for object in lista_object:
+        print(object)
+
+#--------------------------------------------------------------------

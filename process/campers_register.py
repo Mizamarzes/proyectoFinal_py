@@ -1,34 +1,5 @@
-import json
-import os
+import json,os
 from tools.utils import *
-
-# ------------------------------------------------------------------------------
-# funciones de carga de json
-
-def cargar_json(filename_path):
-    try:
-        with open(os.path.join("data", filename_path), 'r') as archivo_json:        
-            lista_campers = json.load(archivo_json)
-            # print("La lista de inscritos ha sido cargada")
-            return lista_campers
-    except Exception as e:
-        print(f"Error al cargar el archivo: {e}")
-        return []
-
-#-------------------------------------------------------------------------------
-# funcion de guardar json
-    
-def save_json(lista_campers, filename):
-    try:
-        with open(os.path.join("data", filename), 'w', encoding="utf-8") as archivo_json:
-            json.dump(lista_campers, archivo_json, indent=2, ensure_ascii=False)
-            print(f"La lista de {filename} ha sido guardada")
-    except FileNotFoundError:
-        print(f"El archivo {filename} no existe. Puede que aún no haya campers guardados.")
-    except json.JSONDecodeError:
-        print(f"Error al decodificar el archivo JSON {filename}. El formato podría ser incorrecto.")
-    except Exception as e:
-        print(f"Error desconocido al guardar {filename}: {e}")
 
 # -------------------------------------------------------------------------------
 # funcion de registrar camper unitario
@@ -146,22 +117,6 @@ def generar_lista_aprobados():
         print("Error al decodificar el JSON.")
     except Exception as e:
         print(f"Se produjo un error: {e}")
-
-
-# --------------------------------------------------------------------
-# funciones para mostrar
-
-def mostrar_campers():
-    lista_campers = cargar_json("campers.json")
-    print("Lista de campers: ")
-    for camper in lista_campers:
-        print(camper)
-
-def mostrar_inscritos():
-    campers_inscritos = cargar_json("inscritos.json")
-    print("Lista de inscritos: ")
-    for inscrito in campers_inscritos:
-        print(inscrito)
 
 # -------------------------------------------------------------------
 # modificar campers, lista general
