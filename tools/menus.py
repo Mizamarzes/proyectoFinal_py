@@ -37,9 +37,10 @@ def menu_trainers():
 
 def menu_matriculas():
     print("----------- Menú Matriculas-----------")
-    print("1. Matricular camper")
-    print("2. Salir")
-    op=validar_opcion("Opcion: ",1,2)
+    print("1. Nueva Matricula")
+    print("2. Mostrar nuevas matriculas")
+    print("3. Salir")
+    op=validar_opcion("Opcion: ",1,3)
     return op
 
 def menu_aulas():

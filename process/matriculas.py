@@ -46,7 +46,7 @@ def matriculas_campers():
         "trainer": experto_encargado,
         "ruta": ruta_asignada,
         "fecha_inicio": fecha_inicio,
-        "fecha_finalizar": fecha_finalizar
+        "fecha_final": fecha_finalizar
     }
 
     save_json([new_matriculado], "matriculas.json")

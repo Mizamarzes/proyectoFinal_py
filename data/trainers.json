@@ -8,13 +8,13 @@
   {
     "id": 522223500,
     "nombre": "Maria",
-    "horario": "MaÃ±ana",
+    "horario": "Diurna",
     "ruta": "NodeJs"
   },
   {
     "id": 999321507,
     "nombre": "Robert",
-    "horario": "MaÃ±ana",
+    "horario": "Diurna",
     "ruta": "NetCore"
   }
 ]

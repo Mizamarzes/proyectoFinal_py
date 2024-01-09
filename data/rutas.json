@@ -57,8 +57,10 @@
       "Mysql",
       " MongoDb y Postgresql"
     ],
-    "backend":[
-      "NetCore","Spring Boot",
-      "NodeJS y Express"]
+    "backend": [
+      "NetCore",
+      "Spring Boot",
+      "NodeJS y Express"
+    ]
   }
 ]

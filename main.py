@@ -20,7 +20,7 @@ def manejar_campers():
             input("Click cualquier tecla [continuar]: ")
         elif suboption==2:
             limpiar_pantalla()
-            buscado=buscar_camper_por_id()
+            buscado=buscar_camper_por_id("inscritos.json")
             mostrar_informacion_camper(buscado)
             input("Click cualquier tecla [continuar]: ")
         elif suboption==3:
@@ -53,7 +53,11 @@ def matriculas():
             limpiar_pantalla()
             matriculas_campers()
             input("Click cualquier tecla [continuar]: ")
-        elif suboption==2:
+        if suboption==2:
+            limpiar_pantalla()
+            mostrar_listado("matriculas.json", campos_matriculas)
+            input("Click cualquier tecla [continuar]: ")
+        elif suboption==3:
             break
 
 def aulas():

@@ -94,6 +94,7 @@ campos_rutas = ['nombre', 'fundamentos_de_programacion','programacion_web','prog
 campos_aulas= ['numero', 'area', 'trainer', 'ruta', 'horario', 'campers', 'cantidad campers']
 campos_riesgo= ['numero', 'id', 'trainer', 'ruta', 'Nota', 'estado']
 campos_linea= ['numero', 'id', 'trainer', 'ruta', 'Nota', 'estado']
+campos_matriculas=['id', 'trainer', 'ruta', 'fecha_inicio', 'fecha_final']
 
 def mostrar_listado(nombre_archivo, campos):
     lista_object = cargar_json(nombre_archivo)
@@ -105,7 +106,7 @@ def mostrar_listado(nombre_archivo, campos):
             print(f"{campo.capitalize()}: {dato[campo]}")
         print("---" * 15)
 
-def mostrar_informacion_camper(camper):
+def mostrar_informacion_camper(camper):     
         print("---"*15)
         print("Información del Camper:")
         print(f"ID: {camper['id']}")

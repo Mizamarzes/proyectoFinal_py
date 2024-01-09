@@ -146,8 +146,8 @@ def key_menu(dato):
 #----------------------------------------------------------
 # buscar camper
 
-def buscar_camper_por_id():
-    lista_campers=cargar_json("inscritos.json")
+def buscar_camper_por_id(filename):
+    lista_campers=cargar_json(filename)
     id_buscar=int(input("Ingrese ID: "))
     
     encontrado=None
@@ -157,6 +157,6 @@ def buscar_camper_por_id():
             break
     
     if not encontrado:
-        print("Camper no encontrado")
+        print("No encontrado")
         return
     return encontrado
