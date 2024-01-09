@@ -93,6 +93,9 @@ campos_inscritos = ['id', 'nombre', 'apellidos', 'direccion', 'acudiente', 'tele
 campos_aprobados = ['numero', 'id', 'estado', 'nota_prueba_admision']
 campos_trainers = ['id', 'nombre', 'horario', 'ruta']
 campos_rutas = ['nombre', 'fundamentos_de_programacion','programacion_web','programacion_formal','bases_de_datos','backend']
+campos_aulas= ['numero', 'area', 'trainer', 'ruta', 'horario', 'campers', 'cantidad campers']
+campos_riesgo= ['numero', 'id', 'trainer', 'ruta', 'Nota', 'estado']
+campos_linea= ['numero', 'id', 'trainer', 'ruta', 'Nota', 'estado']
 
 def mostrar_listado(nombre_archivo, campos):
     lista_object = cargar_json(nombre_archivo)

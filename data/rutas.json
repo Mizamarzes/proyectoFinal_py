@@ -60,13 +60,5 @@
     "backend":[
       "NetCore","Spring Boot",
       "NodeJS y Express"]
-  },
-  {
-    "nombre": "ksajdk",
-    "fundamentos_de_programacion": "ajksdalkd",
-    "programacion_web": "adlak",
-    "programacion_formal": "akdl",
-    "bases_de_datos": "adskl",
-    "backend": "askdl"
   }
 ]
