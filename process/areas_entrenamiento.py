@@ -22,7 +22,7 @@ def generar_area_entrenamiento():
     lista_trainers = cargar_json("trainers.json")
     salones = ["Artemis", "Apolo", "Sputnik"]
     
-    cantidad_camper_por_entrenador = 33
+    cantidad_camper_por_entrenador = 30
     cantidad_total_camper = cantidad_camper_por_entrenador * len(lista_trainers)
 
     for j, trainer in enumerate(lista_trainers):

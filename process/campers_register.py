@@ -17,11 +17,8 @@ def inscribir_camper():
     nota_prueba_teorica=input("Nota prueba de admision teorica: ")
     nota_prueba_practica=input("Nota prueba de admision practica: ")
     promedio_nota_inicial = promedio(nota_prueba_teorica, nota_prueba_practica, 2)
+    estado="Inscrito"
     
-    if promedio_nota_inicial>=60:
-        estado="Aprobado"
-    else:
-        estado="Rechazado"
 
     new_camper_inscrito={
         'id':id,
@@ -53,11 +50,8 @@ def generar_list():
         nota_prueba_practica=generar_notas_inicial()
         promedio_nota_inicial = promedio(nota_prueba_teorica, nota_prueba_practica, 2)
         id=generar_id()
+        estado="Inscrito"
         
-        if promedio_nota_inicial>=60:
-            estado="Aprobado"
-        else:
-            estado="Rechazado"
         
         datos = {
             "id": id,
@@ -84,7 +78,7 @@ def generar_lista_aprobados(lista_campers):
     i=0
     for camper in lista_campers:
         promedio_nota_inicial=camper['nota_prueba_admision']
-        estado=camper['estado']
+        estado="Aprobado"
         id_=camper['id']
         
         if promedio_nota_inicial>=60:
@@ -100,19 +94,52 @@ def generar_lista_aprobados(lista_campers):
     save_json(campers_aprobados, "aprobados.json")
 
 # -------------------------------------------------------------------------------
-# modificar campers, lista general
-
-def modificar_camper():
-    lista_inscritos=cargar_json("inscritos.json")
-    id_a_buscar=int(input("Numero de identificacion del camper a modificar: "))
-    nuevo_estado=input("Nuevo estado: ")
         
-    for camper in lista_inscritos:
-        if camper['id'] == id_a_buscar:
-            camper['estado'] = nuevo_estado
-            print(f"Estado del camper con id {id_a_buscar} modificado a: {nuevo_estado}")
+def modificar(filename):
+    lista_data = cargar_json(filename)
+    id_buscar = int(input("Ingrese numero de identificacion: "))
+    encontrado = False
 
-        if nuevo_estado=="Aprobado":
-            generar_lista_aprobados(60,id_a_buscar)
+    for datos in lista_data:
+        if datos['id'] == id_buscar:
+            encontrado = True
+            break
+    
+    if encontrado:
+        llave = key_menu(lista_data[0]) 
+        nuevo_valor = input("Ingrese el nuevo valor: ")
+
+        for datos in lista_data:
+            if datos["id"] == id_buscar:
+                datos[llave] = nuevo_valor
+                break
+
+        save_json(lista_data, filename)
+    else:
+        print("No se encontro el camper")
+
+#   Seleccionar llave a modificar ---------------------
         
-
+def key_menu(dato):
+    print("Seleccione una llave:")
+    i=0
+    for llave in dato.keys():
+        i+=1
+        print(f"{i}. {llave}")
+        
+    opcion = int(input("Opción: "))
+    if opcion==1:
+        respuesta="id"
+    elif opcion==2:
+        respuesta="nombre"
+    elif opcion==3:
+        respuesta="apellidos"
+    elif opcion==4:
+        respuesta="direccion"
+    elif opcion==5:
+        respuesta="acudiente"
+    elif opcion==6:
+        respuesta="telefono"
+    elif opcion==7:
+        respuesta="estado"
+    return respuesta

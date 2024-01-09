@@ -18,7 +18,7 @@ def menu_principal():
 def menu_campers():
     print("----------- Menú Campers-----------")
     print("1. Crear campers")
-    print("2. Listar campers pre-prueba-admision")
+    print("2. Listar inscritos")
     print("3. Listar aprobados")
     print("4. Modificar campers")
     print("5. Salir")
@@ -34,7 +34,7 @@ def menu_rutas():
     return op
 
 def menu_trainers():
-    print("----------- Menú Modificar-----------")
+    print("----------- Menú Trainers-----------")
     print("1. Agregar Trainer")
     print("2. Mostrar Trainers")
     print("3. Salir")

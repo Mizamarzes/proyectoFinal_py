@@ -1,7 +1,8 @@
 import random, os, json
-
 #---------------------------------------------------------------------------
 # necesidades varias
+
+
 
 def numero_alelatorio():
     num_random=random.randint(0,2)
@@ -17,19 +18,19 @@ def validar_opcion(enunciando,inferior,superior):
             if opcion>=inferior and opcion<=superior:
                 return opcion
             else:
-                print(f"Opción no está entre el intervalo de ({inferior}-{superior})")
+                print(f"Opción no esta entre el intervalo de ({inferior}-{superior})")
         except ValueError:
-            print("Por favor, introduce un número válido. ")
+            print("Por favor, introduce un número valido. ")
 
 def generar_id():
     return random.randint(100000000, 999999999)
 
 def generar_nombre():
-    nombres = ["Juan", "Ana", "Carlos", "Laura", "David", "Isabel", "Pedro", "Sofía", "Miguel", "Elena", "Lucía", "Javier", "María", "Alejandro", "Rosa"]
+    nombres = ["Juan", "Ana", "Carlos", "Laura", "David", "Isabel", "Pedro", "Sofia", "Miguel", "Elena", "Lucia", "Javier", "María", "Alejandro", "Rosa"]
     return random.choice(nombres)
 
 def generar_apellidos():
-    apellidos = ["Pérez", "Gómez", "Rodríguez", "Fernández", "Martínez", "López", "Díaz", "Hernández", "Gutiérrez", "Jiménez", "Sánchez", "Ramírez", "Cruz", "Ortega", "Morales"]
+    apellidos = ["Perez", "Gomez", "Rodriguez", "Fernandez", "Martinez", "Lopez", "Diaz", "Hernandez", "Gutierrez", "Jimenez", "Sánchez", "Ramirez", "Cruz", "Ortega", "Morales"]
     return random.choice(apellidos)
 
 def generar_direccion():
@@ -37,7 +38,7 @@ def generar_direccion():
     return f"{random.randint(1, 100)} {random.choice(direcciones)}"
 
 def generar_acudiente():
-    acudientes = ["Padre", "Madre", "Abuelo", "Abuela", "Tío", "Tía"]
+    acudientes = ["Padre", "Madre", "Abuelo", "Abuela", "Tio", "Tia"]
     return f"{random.choice(acudientes)} de {generar_nombre()} {generar_apellidos()}"
 
 def generar_telefono():
@@ -88,22 +89,49 @@ def save_json(lista_campers, filename):
 
 # mostrar listas de campers y demas
 
-def mostrar_objecto_lista(filename_e):
-    lista_object = cargar_json(filename_e)
+campos_inscritos = ['id', 'nombre', 'apellidos', 'direccion', 'acudiente', 'telefono[0]', 'estado']
+campos_aprobados = ['numero', 'id', 'estado', 'nota_prueba_admision']
+campos_trainers = ['id', 'nombre', 'horario', 'ruta']
+
+def mostrar_lista_inscritos():
+    lista_object = cargar_json('inscritos.json')
     print("Listado: ")
-    for object in lista_object:
-        print(object)
+    print("---"*15)
+    for dato in lista_object:
+        print(f"ID: {dato['id']}")
+        print(f"Nombre: {dato['nombre']}")
+        print(f"Apellidos: {dato['apellidos']}")
+        print(f"Direccion: {dato['direccion']}")
+        print(f"Acudiente: {dato['acudiente']}")
+        print(f"Telefono Fijo: {dato['telefono'][0]}")
+        print(f"Estado: {dato['estado']}")
+        print("---"*15)
 
-# def mostrar_objecto_lista(filename_e):#muestra todas las llaves y devuelve la llave escogida
-#     data=cargar_json(filename_e)
-#     keys=list(data.keys())
-#     n = len(keys)
+def mostrar_aprobados():
+    lista_object = cargar_json('aprobados.json')
+    print("Listado: ")
+    print("---"*15)
+    for dato in lista_object:
+        print(f"Numero: {dato['numero']}")
+        print(f"ID: {dato['id']}")
+        print(f"Estado: {dato['estado']}")
+        print(f"Nota prueba admision: {dato['nota_prueba_admision']}")
+        print("---"*15)
 
-#     for i, key in enumerate(keys, start=1):
-#         print(f"{i}. {key.replace('_', ' ')}")
+def mostrar_trainers():    
+    lista_object = cargar_json('trainers.json')
+    print("Listado: ")
+    print("---"*15)
+    for dato in lista_object:
+        print(f"ID: {dato['id']}")
+        print(f"Nombre: {dato['nombre']}")
+        print(f"Horario: {dato['horario']}")
+        print(f"Ruta: {dato['ruta']}")
+        print("---"*15)
 
-#     op = validar_opcion("Opción: ", 1, n)
-#     return keys[op-1]
+
+
+
 
 #--------------------------------------------------------------------
 # limpiar json
@@ -115,3 +143,17 @@ def limpiar_json(nombre_archivo):
 
 #------------------------------------------------------------------------
 
+def shek():
+    print("    ⠑⡄⠀⠀⠀⠀⠀⠀⠀ ⣀⣀⣤⣤⣤⣀⡀")
+    print("⠸⡇⠀⠿⡀⠀⠀⠀⣀⡴⢿⣿⣿⣿⣿⣿⣿⣿⣷⣦⡀")
+    print("⠀⠀⠀⠀⠑⢄⣠⠾⠁⣀⣄⡈⠙⣿⣿⣿⣿⣿⣿⣿⣿⣆")
+    print("⠀⠀⠀⠀⢀⡀⠁⠀⠀⠈⠙⠛⠂⠈⣿⣿⣿⣿⣿⠿⡿⢿⣆")
+    print("⠀⠀⠀⢀⡾⣁⣀⠀⠴⠂⠙⣗⡀⠀⢻⣿⣿⠭⢤⣴⣦⣤⣹⠀⠀⠀⢀⢴⣶⣆")
+    print("⠀⠀⢀⣾⣿⣿⣿⣷⣮⣽⣾⣿⣥⣴⣿⣿⡿⢂⠔⢚⡿⢿⣿⣦⣴⣾⠸⣼⡿")
+    print("⠀⢀⡞⠁⠙⠻⠿⠟⠉⠀⠛⢹⣿⣿⣿⣿⣿⣌⢤⣼⣿⣾⣿⡟⠉")
+    print("⠀⣾⣷⣶⠇⠀⠀⣤⣄⣀⡀⠈⠻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇")
+    print("⠀⠉⠈⠉⠀⠀⢦⡈⢻⣿⣿⣿⣶⣶⣶⣶⣤⣽⡹⣿⣿⣿⣿⡇")
+    print("⠀⠀⠀⠀⠀⠀⠀⠉⠲⣽⡻⢿⣿⣿⣿⣿⣿⣿⣷⣜⣿⣿⣿⡇")
+    print(" ⠀⠀⠀⠀⠀⢸⣿⣿⣷⣶⣮⣭⣽⣿⣿⣿⣿⣿⣿⣿⠇")
+    print("⠀⠀⠀⠀⠀⠀⣀⣀⣈⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠇")
+    print("⠀⠀⠀⠀⠀⠀⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿ ")
