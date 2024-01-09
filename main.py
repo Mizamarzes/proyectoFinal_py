@@ -3,6 +3,7 @@ from process.rutas import *
 from process.trainers import *
 from process.areas_entrenamiento import *
 from process.modulos import *
+from process.matriculas import *
 from tools.menus import *
 from tools.utils import *
 
@@ -34,7 +35,13 @@ def trainers():
         print()
 
 def matriculas():
-    print()
+    limpiar_pantalla()
+    suboption=menu_matriculas()
+    if suboption==1:
+        matriculas_campers()
+        input("Click cualquier tecla [continuar]: ")
+    elif suboption==2:
+        print()
 
 def aulas():
     limpiar_pantalla()
@@ -110,5 +117,6 @@ while True:
     elif op==6:
         reportes()
     elif op==7:
+        limpiar_pantalla()
         final_epico()
         break
