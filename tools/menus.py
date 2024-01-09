@@ -21,9 +21,10 @@ def menu_principal():
 def menu_campers():
     print("----------- Menú Campers-----------")
     print("1. Crear campers")
-    print("2. Modificar campers")
-    print("3. Salir")
-    op=validar_opcion("Opcion: ",1,3)
+    print("2. Buscar campers")
+    print("3. Modificar camper")
+    print("4. Salir")
+    op=validar_opcion("Opcion: ",1,4)
     return op
 
 def menu_trainers():

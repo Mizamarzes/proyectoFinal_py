@@ -20,9 +20,14 @@ def manejar_campers():
             input("Click cualquier tecla [continuar]: ")
         elif suboption==2:
             limpiar_pantalla()
-            modificar("inscritos.json")
+            buscado=buscar_camper_por_id()
+            mostrar_informacion_camper(buscado)
             input("Click cualquier tecla [continuar]: ")
         elif suboption==3:
+            limpiar_pantalla()
+            modificar("inscritos.json")
+            input("Click cualquier tecla [continuar]: ")
+        elif suboption==4:
             break
 
 def trainers():

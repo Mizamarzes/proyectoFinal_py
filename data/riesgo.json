@@ -1,122 +1,106 @@
 [
   {
-    "numero": 4,
-    "id": 124705756,
+    "numero": 3,
+    "id": 360704086,
     "trainer": "Camilo",
     "ruta": "Java",
-    "Nota": 51.2,
+    "Nota": 55.599999999999994,
     "estado": "Riesgo"
   },
   {
-    "numero": 8,
-    "id": 374543264,
+    "numero": 5,
+    "id": 618177800,
     "trainer": "Camilo",
     "ruta": "Java",
-    "Nota": 58.0,
+    "Nota": 49.800000000000004,
     "estado": "Riesgo"
   },
   {
-    "numero": 9,
-    "id": 847325125,
+    "numero": 11,
+    "id": 257111471,
     "trainer": "Camilo",
     "ruta": "Java",
-    "Nota": 52.5,
+    "Nota": 58.4,
     "estado": "Riesgo"
   },
   {
-    "numero": 16,
-    "id": 510033496,
+    "numero": 21,
+    "id": 773009066,
     "trainer": "Camilo",
     "ruta": "Java",
     "Nota": 56.099999999999994,
     "estado": "Riesgo"
   },
   {
-    "numero": 19,
-    "id": 444022452,
+    "numero": 24,
+    "id": 340431535,
     "trainer": "Camilo",
     "ruta": "Java",
-    "Nota": 57.0,
+    "Nota": 51.3,
     "estado": "Riesgo"
   },
   {
     "numero": 25,
-    "id": 254068868,
+    "id": 632632280,
     "trainer": "Camilo",
     "ruta": "Java",
-    "Nota": 57.2,
+    "Nota": 51.099999999999994,
     "estado": "Riesgo"
   },
   {
-    "numero": 34,
-    "id": 863755372,
+    "numero": 30,
+    "id": 464444695,
+    "trainer": "Camilo",
+    "ruta": "Java",
+    "Nota": 55.900000000000006,
+    "estado": "Riesgo"
+  },
+  {
+    "numero": 38,
+    "id": 331503915,
     "trainer": "Maria",
     "ruta": "NodeJs",
-    "Nota": 52.599999999999994,
+    "Nota": 51.3,
     "estado": "Riesgo"
   },
   {
-    "numero": 44,
-    "id": 665191800,
+    "numero": 39,
+    "id": 615215638,
     "trainer": "Maria",
     "ruta": "NodeJs",
-    "Nota": 55.099999999999994,
+    "Nota": 57.39999999999999,
     "estado": "Riesgo"
   },
   {
-    "numero": 46,
-    "id": 698867470,
+    "numero": 58,
+    "id": 599800592,
     "trainer": "Maria",
     "ruta": "NodeJs",
-    "Nota": 56.99999999999999,
+    "Nota": 45.5,
     "estado": "Riesgo"
   },
   {
-    "numero": 48,
-    "id": 647688536,
+    "numero": 59,
+    "id": 249370867,
     "trainer": "Maria",
     "ruta": "NodeJs",
-    "Nota": 48.8,
+    "Nota": 56.2,
     "estado": "Riesgo"
   },
   {
-    "numero": 50,
-    "id": 143293815,
-    "trainer": "Maria",
-    "ruta": "NodeJs",
-    "Nota": 59.6,
-    "estado": "Riesgo"
-  },
-  {
-    "numero": 65,
-    "id": 532355748,
+    "numero": 62,
+    "id": 178741312,
     "trainer": "Robert",
     "ruta": "NetCore",
-    "Nota": 50.9,
+    "Nota": 54.6,
     "estado": "Riesgo"
   },
   {
-    "numero": 69,
-    "id": 789101324,
+    "numero": 67,
+    "id": 785804837,
     "trainer": "Robert",
     "ruta": "NetCore",
-    "Nota": 57.5,
-    "estado": "Riesgo"
-  },
-  {
-    "numero": 70,
-    "id": 208241523,
-    "trainer": "Robert",
-    "ruta": "NetCore",
-    "Nota": 59.5,
-    "estado": "Riesgo"
-  },
-  {
-    "numero": 75,
-    "id": 258034355,
-    "trainer": "Robert",
-    "ruta": "NetCore",
-    "Nota": 45.400000000000006,
+    "Nota": 59.800000000000004,
     "estado": "Riesgo"
   }
 ]

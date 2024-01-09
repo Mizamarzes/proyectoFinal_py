@@ -105,6 +105,18 @@ def mostrar_listado(nombre_archivo, campos):
             print(f"{campo.capitalize()}: {dato[campo]}")
         print("---" * 15)
 
+def mostrar_informacion_camper(camper):
+        print("---"*15)
+        print("Información del Camper:")
+        print(f"ID: {camper['id']}")
+        print(f"Nombre: {camper['nombre']}")
+        print(f"Apellidos: {camper['apellidos']}")
+        print(f"Dirección: {camper['direccion']}")
+        print(f"Acudiente: {camper['acudiente']}")
+        print(f"Teléfono: {camper['telefono']}")
+        print(f"Nota Prueba Admisión: {camper['nota_prueba_admision']}")
+        print(f"Estado: {camper['estado']}")
+        print("---"*15)
 #--------------------------------------------------------------------
 # limpiar json
         
