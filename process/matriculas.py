@@ -31,7 +31,14 @@ def matriculas_campers():
         print(f"No se encontró una ruta de entrenamiento con el entrenador {experto_encargado} y la ruta {ruta_asignada}.")
         return
 
-    ruta_encontrada['campers'].append(camper_encontrado['id'])
+    nuevo_camper_id = camper_encontrado['id']
+    ruta_encontrada['campers'].append(nuevo_camper_id)
+    
+    for i, area in enumerate(lista_areas):
+        if area['trainer'] == experto_encargado and area['ruta'] == ruta_asignada:
+            lista_areas[i] = ruta_encontrada
+            break
+    
     save_json(lista_areas, "areas.json")
 
     new_matriculado = {
@@ -42,5 +49,5 @@ def matriculas_campers():
         "fecha_finalizar": fecha_finalizar
     }
 
-    save_json([new_matriculado], "areas.json")
+    save_json([new_matriculado], "matriculas.json")
     print("Camper matriculado con éxito en la ruta de entrenamiento.")
