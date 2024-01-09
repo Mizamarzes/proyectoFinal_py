@@ -15,7 +15,7 @@ def crear_nueva_ruta():
 
     new_ruta = {
         "nombre": nombre_ruta,
-        "fundamentos_de_progamacion": fundamentos_programacion,
+        "fundamentos_de_programacion": fundamentos_programacion,
         "programacion_web": programacion_web,
         "programacion_formal": programacion_formal,
         "bases_de_datos": bases_de_datos,

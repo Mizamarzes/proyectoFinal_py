@@ -15,10 +15,10 @@ def manejar_campers():
         inscribir_camper()
         input("Click cualquier tecla [continuar]: ")
     elif suboption==2:
-        mostrar_lista_inscritos()
+        mostrar_listado("inscritos.json", campos_inscritos)
         input("Click cualquier tecla [continuar]: ")
     elif suboption==3:
-        mostrar_aprobados()
+        mostrar_listado("aprobados.json", campos_aprobados)
         input("Click cualquier tecla [continuar]: ")
     elif suboption==4:
         modificar("inscritos.json")
@@ -33,7 +33,7 @@ def rutas():
         crear_nueva_ruta()
         input("Click cualquier tecla [continuar]: ")
     elif suboption==2:
-        #mostrar_objecto_lista("rutas.json")
+        mostrar_listado("rutas.json", campos_rutas)
         input("Click cualquier tecla [continuar]: ")
     elif suboption==3:
         print()
@@ -45,7 +45,7 @@ def trainers():
         crear_trainers()
         input("Click cualquier tecla [continuar]: ")
     elif suboption==2:
-        mostrar_trainers()
+        mostrar_listado("trainers.json", campos_trainers)
         input("Click cualquier tecla [continuar]: ")
     elif suboption==3:
         print()
@@ -70,6 +70,5 @@ while True:
     elif op==3:
         rutas()
     elif op==4:
-        shek()
-        print("Gracias por utilizar nuestro servicio")
+        final_epico()
         break

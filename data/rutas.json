@@ -1,7 +1,7 @@
 [
   {
     "nombre": "NodeJS",
-    "fundamentos_de_progamacion": [
+    "fundamentos_de_programacion": [
       "Introducion_a_la_algoritmia",
       "PSeint",
       "Python"
@@ -23,7 +23,7 @@
   },
   {
     "nombre": "Java",
-    "fundamentos_de_progamacion": [
+    "fundamentos_de_programacion": [
       "Introducion_a_la_algoritmia",
       "PSeint",
       "Python"
@@ -43,7 +43,7 @@
   },
   {
     "nombre": "NetCore",
-    "fundamentos_de_progamacion": [
+    "fundamentos_de_programacion": [
       "Introducion_a_la_algoritmia",
       "PSeint",
       "Python"
@@ -56,11 +56,14 @@
     "bases_de_datos": [
       "Mysql",
       " MongoDb y Postgresql"
-    ]
+    ],
+    "backend":[
+      "NetCore","Spring Boot",
+      "NodeJS y Express"]
   },
   {
     "nombre": "ksajdk",
-    "fundamentos_de_progamacion": "ajksdalkd",
+    "fundamentos_de_programacion": "ajksdalkd",
     "programacion_web": "adlak",
     "programacion_formal": "akdl",
     "bases_de_datos": "adskl",

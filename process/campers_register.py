@@ -13,7 +13,6 @@ def inscribir_camper():
     direccion=input("Direccion: ")
     acudiente=input("Acudiente: ")
     telefonoFijo=input("Telefono Fijo: ")
-    numCelular=input("Nro celular: ")
     nota_prueba_teorica=input("Nota prueba de admision teorica: ")
     nota_prueba_practica=input("Nota prueba de admision practica: ")
     promedio_nota_inicial = promedio(nota_prueba_teorica, nota_prueba_practica, 2)
@@ -26,7 +25,7 @@ def inscribir_camper():
         "apellidos":apellidos,
         "direccion":direccion,
         "acudiente":acudiente,
-        "telefono":[telefonoFijo, numCelular],
+        "telefono":telefonoFijo,
         "nota_prueba_admision":promedio_nota_inicial,
         "estado":estado
     }
@@ -59,7 +58,7 @@ def generar_list():
             "apellidos": generar_apellidos(),
             "direccion": generar_direccion(),
             "acudiente": generar_acudiente(),
-            "telefono": [generar_telefono(),generar_telefono()],
+            "telefono": generar_telefono(),
             "nota_prueba_admision":promedio_nota_inicial,
             "estado":estado
         }

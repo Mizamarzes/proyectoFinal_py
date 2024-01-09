@@ -89,49 +89,20 @@ def save_json(lista_campers, filename):
 
 # mostrar listas de campers y demas
 
-campos_inscritos = ['id', 'nombre', 'apellidos', 'direccion', 'acudiente', 'telefono[0]', 'estado']
+campos_inscritos = ['id', 'nombre', 'apellidos', 'direccion', 'acudiente', 'telefono', 'estado']
 campos_aprobados = ['numero', 'id', 'estado', 'nota_prueba_admision']
 campos_trainers = ['id', 'nombre', 'horario', 'ruta']
+campos_rutas = ['nombre', 'fundamentos_de_programacion','programacion_web','programacion_formal','bases_de_datos','backend']
 
-def mostrar_lista_inscritos():
-    lista_object = cargar_json('inscritos.json')
+def mostrar_listado(nombre_archivo, campos):
+    lista_object = cargar_json(nombre_archivo)
     print("Listado: ")
-    print("---"*15)
+    print("---" * 15)
+    
     for dato in lista_object:
-        print(f"ID: {dato['id']}")
-        print(f"Nombre: {dato['nombre']}")
-        print(f"Apellidos: {dato['apellidos']}")
-        print(f"Direccion: {dato['direccion']}")
-        print(f"Acudiente: {dato['acudiente']}")
-        print(f"Telefono Fijo: {dato['telefono'][0]}")
-        print(f"Estado: {dato['estado']}")
-        print("---"*15)
-
-def mostrar_aprobados():
-    lista_object = cargar_json('aprobados.json')
-    print("Listado: ")
-    print("---"*15)
-    for dato in lista_object:
-        print(f"Numero: {dato['numero']}")
-        print(f"ID: {dato['id']}")
-        print(f"Estado: {dato['estado']}")
-        print(f"Nota prueba admision: {dato['nota_prueba_admision']}")
-        print("---"*15)
-
-def mostrar_trainers():    
-    lista_object = cargar_json('trainers.json')
-    print("Listado: ")
-    print("---"*15)
-    for dato in lista_object:
-        print(f"ID: {dato['id']}")
-        print(f"Nombre: {dato['nombre']}")
-        print(f"Horario: {dato['horario']}")
-        print(f"Ruta: {dato['ruta']}")
-        print("---"*15)
-
-
-
-
+        for campo in campos:
+            print(f"{campo.capitalize()}: {dato[campo]}")
+        print("---" * 15)
 
 #--------------------------------------------------------------------
 # limpiar json
@@ -143,17 +114,30 @@ def limpiar_json(nombre_archivo):
 
 #------------------------------------------------------------------------
 
-def shek():
-    print("    ⠑⡄⠀⠀⠀⠀⠀⠀⠀ ⣀⣀⣤⣤⣤⣀⡀")
-    print("⠸⡇⠀⠿⡀⠀⠀⠀⣀⡴⢿⣿⣿⣿⣿⣿⣿⣿⣷⣦⡀")
-    print("⠀⠀⠀⠀⠑⢄⣠⠾⠁⣀⣄⡈⠙⣿⣿⣿⣿⣿⣿⣿⣿⣆")
-    print("⠀⠀⠀⠀⢀⡀⠁⠀⠀⠈⠙⠛⠂⠈⣿⣿⣿⣿⣿⠿⡿⢿⣆")
-    print("⠀⠀⠀⢀⡾⣁⣀⠀⠴⠂⠙⣗⡀⠀⢻⣿⣿⠭⢤⣴⣦⣤⣹⠀⠀⠀⢀⢴⣶⣆")
-    print("⠀⠀⢀⣾⣿⣿⣿⣷⣮⣽⣾⣿⣥⣴⣿⣿⡿⢂⠔⢚⡿⢿⣿⣦⣴⣾⠸⣼⡿")
-    print("⠀⢀⡞⠁⠙⠻⠿⠟⠉⠀⠛⢹⣿⣿⣿⣿⣿⣌⢤⣼⣿⣾⣿⡟⠉")
-    print("⠀⣾⣷⣶⠇⠀⠀⣤⣄⣀⡀⠈⠻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇")
-    print("⠀⠉⠈⠉⠀⠀⢦⡈⢻⣿⣿⣿⣶⣶⣶⣶⣤⣽⡹⣿⣿⣿⣿⡇")
-    print("⠀⠀⠀⠀⠀⠀⠀⠉⠲⣽⡻⢿⣿⣿⣿⣿⣿⣿⣷⣜⣿⣿⣿⡇")
-    print(" ⠀⠀⠀⠀⠀⢸⣿⣿⣷⣶⣮⣭⣽⣿⣿⣿⣿⣿⣿⣿⠇")
-    print("⠀⠀⠀⠀⠀⠀⣀⣀⣈⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠇")
-    print("⠀⠀⠀⠀⠀⠀⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿ ")
+def final_epico():
+    # print("    ⠑⡄⠀⠀⠀⠀⠀⠀⠀ ⣀⣀⣤⣤⣤⣀⡀")
+    # print("⠸⡇⠀⠿⡀⠀⠀⠀⣀⡴⢿⣿⣿⣿⣿⣿⣿⣿⣷⣦⡀")
+    # print("⠀⠀⠀⠀⠑⢄⣠⠾⠁⣀⣄⡈⠙⣿⣿⣿⣿⣿⣿⣿⣿⣆")
+    # print("⠀⠀⠀⠀⢀⡀⠁⠀⠀⠈⠙⠛⠂⠈⣿⣿⣿⣿⣿⠿⡿⢿⣆")
+    # print("⠀⠀⠀⢀⡾⣁⣀⠀⠴⠂⠙⣗⡀⠀⢻⣿⣿⠭⢤⣴⣦⣤⣹⠀⠀⠀⢀⢴⣶⣆")
+    # print("⠀⠀⢀⣾⣿⣿⣿⣷⣮⣽⣾⣿⣥⣴⣿⣿⡿⢂⠔⢚⡿⢿⣿⣦⣴⣾⠸⣼⡿")
+    # print("⠀⢀⡞⠁⠙⠻⠿⠟⠉⠀⠛⢹⣿⣿⣿⣿⣿⣌⢤⣼⣿⣾⣿⡟⠉")
+    # print("⠀⣾⣷⣶⠇⠀⠀⣤⣄⣀⡀⠈⠻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇")
+    # print("⠀⠉⠈⠉⠀⠀⢦⡈⢻⣿⣿⣿⣶⣶⣶⣶⣤⣽⡹⣿⣿⣿⣿⡇")
+    # print("⠀⠀⠀⠀⠀⠀⠀⠉⠲⣽⡻⢿⣿⣿⣿⣿⣿⣿⣷⣜⣿⣿⣿⡇")
+    # print(" ⠀⠀⠀⠀⠀⢸⣿⣿⣷⣶⣮⣭⣽⣿⣿⣿⣿⣿⣿⣿⠇")
+    # print("⠀⠀⠀⠀⠀⠀⣀⣀⣈⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠇")
+    # print("⠀⠀⠀⠀⠀⠀⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿ ")
+    print(" ═══•◉•═════")
+    print(" ▂▄▄▓▄▄▂")
+    print(" ◢◤ █▀▀████▄▄▄▄◢◤")
+    print(" █▄ █ █▄ ███▀▀▀▀▀▀▀╬")
+    print(" ◥█████◤")
+    print(" ═╩══╩═")
+    print(" ╬═╬")
+    print(" ╬═╬")
+    print(" ╬═╬")
+    print(" ╬═╬  GRACIAS POR UTILIZAR NUESTRO SERVICIO!!!!!")
+    print(" ╬═╬ ●/")
+    print(" ╬═╬/▌")
+    print(" ╬═╬/ \ ")                    
