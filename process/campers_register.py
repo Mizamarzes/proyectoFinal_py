@@ -142,3 +142,6 @@ def key_menu(dato):
     elif opcion==7:
         respuesta="estado"
     return respuesta
+
+#----------------------------------------------------------
+# buscar camper
