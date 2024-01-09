@@ -1,554 +1,442 @@
 [
   {
     "numero": 1,
-    "id": 183233041,
+    "id": 233212925,
     "trainer": "Camilo",
     "ruta": "Java",
-    "Nota": 71.19999999999999,
+    "Nota": 65.2,
     "estado": "En_linea"
   },
   {
     "numero": 2,
-    "id": 205878652,
+    "id": 413001739,
     "trainer": "Camilo",
     "ruta": "Java",
-    "Nota": 93.5,
+    "Nota": 75.3,
     "estado": "En_linea"
   },
   {
     "numero": 3,
-    "id": 161404923,
+    "id": 936866382,
     "trainer": "Camilo",
     "ruta": "Java",
-    "Nota": 85.10000000000001,
+    "Nota": 78.1,
+    "estado": "En_linea"
+  },
+  {
+    "numero": 4,
+    "id": 247537398,
+    "trainer": "Camilo",
+    "ruta": "Java",
+    "Nota": 90.6,
     "estado": "En_linea"
   },
   {
     "numero": 5,
-    "id": 797468137,
+    "id": 693854104,
+    "trainer": "Camilo",
+    "ruta": "Java",
+    "Nota": 92.1,
+    "estado": "En_linea"
+  },
+  {
+    "numero": 6,
+    "id": 458748810,
+    "trainer": "Camilo",
+    "ruta": "Java",
+    "Nota": 69.9,
+    "estado": "En_linea"
+  },
+  {
+    "numero": 7,
+    "id": 777231705,
+    "trainer": "Camilo",
+    "ruta": "Java",
+    "Nota": 67.6,
+    "estado": "En_linea"
+  },
+  {
+    "numero": 10,
+    "id": 498713263,
+    "trainer": "Camilo",
+    "ruta": "Java",
+    "Nota": 62.8,
+    "estado": "En_linea"
+  },
+  {
+    "numero": 12,
+    "id": 956129146,
+    "trainer": "Camilo",
+    "ruta": "Java",
+    "Nota": 87.4,
+    "estado": "En_linea"
+  },
+  {
+    "numero": 14,
+    "id": 859068236,
+    "trainer": "Camilo",
+    "ruta": "Java",
+    "Nota": 87.6,
+    "estado": "En_linea"
+  },
+  {
+    "numero": 16,
+    "id": 614025087,
+    "trainer": "Camilo",
+    "ruta": "Java",
+    "Nota": 75.5,
+    "estado": "En_linea"
+  },
+  {
+    "numero": 18,
+    "id": 746910400,
+    "trainer": "Camilo",
+    "ruta": "Java",
+    "Nota": 81.9,
+    "estado": "En_linea"
+  },
+  {
+    "numero": 19,
+    "id": 986415111,
+    "trainer": "Camilo",
+    "ruta": "Java",
+    "Nota": 86.1,
+    "estado": "En_linea"
+  },
+  {
+    "numero": 20,
+    "id": 867059817,
+    "trainer": "Camilo",
+    "ruta": "Java",
+    "Nota": 73.6,
+    "estado": "En_linea"
+  },
+  {
+    "numero": 21,
+    "id": 185181644,
+    "trainer": "Camilo",
+    "ruta": "Java",
+    "Nota": 80.8,
+    "estado": "En_linea"
+  },
+  {
+    "numero": 22,
+    "id": 350364012,
+    "trainer": "Camilo",
+    "ruta": "Java",
+    "Nota": 67.7,
+    "estado": "En_linea"
+  },
+  {
+    "numero": 23,
+    "id": 688317743,
+    "trainer": "Camilo",
+    "ruta": "Java",
+    "Nota": 72.5,
+    "estado": "En_linea"
+  },
+  {
+    "numero": 24,
+    "id": 503125200,
+    "trainer": "Camilo",
+    "ruta": "Java",
+    "Nota": 82.5,
+    "estado": "En_linea"
+  },
+  {
+    "numero": 26,
+    "id": 912567562,
+    "trainer": "Camilo",
+    "ruta": "Java",
+    "Nota": 69.1,
+    "estado": "En_linea"
+  },
+  {
+    "numero": 27,
+    "id": 240856838,
+    "trainer": "Camilo",
+    "ruta": "Java",
+    "Nota": 73.5,
+    "estado": "En_linea"
+  },
+  {
+    "numero": 28,
+    "id": 865083563,
     "trainer": "Camilo",
     "ruta": "Java",
     "Nota": 64.3,
     "estado": "En_linea"
   },
   {
-    "numero": 6,
-    "id": 386229049,
-    "trainer": "Camilo",
-    "ruta": "Java",
-    "Nota": 62.5,
-    "estado": "En_linea"
-  },
-  {
-    "numero": 7,
-    "id": 263428275,
-    "trainer": "Camilo",
-    "ruta": "Java",
-    "Nota": 68.2,
-    "estado": "En_linea"
-  },
-  {
-    "numero": 8,
-    "id": 147105820,
-    "trainer": "Camilo",
-    "ruta": "Java",
-    "Nota": 79.1,
-    "estado": "En_linea"
-  },
-  {
-    "numero": 9,
-    "id": 606692080,
-    "trainer": "Camilo",
-    "ruta": "Java",
-    "Nota": 70.3,
-    "estado": "En_linea"
-  },
-  {
-    "numero": 13,
-    "id": 367012716,
-    "trainer": "Camilo",
-    "ruta": "Java",
-    "Nota": 72.3,
-    "estado": "En_linea"
-  },
-  {
-    "numero": 14,
-    "id": 377428557,
-    "trainer": "Camilo",
-    "ruta": "Java",
-    "Nota": 79.5,
-    "estado": "En_linea"
-  },
-  {
-    "numero": 16,
-    "id": 918018656,
-    "trainer": "Camilo",
-    "ruta": "Java",
-    "Nota": 75.69999999999999,
-    "estado": "En_linea"
-  },
-  {
-    "numero": 17,
-    "id": 954268207,
-    "trainer": "Camilo",
-    "ruta": "Java",
-    "Nota": 82.1,
-    "estado": "En_linea"
-  },
-  {
-    "numero": 18,
-    "id": 868598313,
-    "trainer": "Camilo",
-    "ruta": "Java",
-    "Nota": 66.69999999999999,
-    "estado": "En_linea"
-  },
-  {
-    "numero": 19,
-    "id": 518274473,
-    "trainer": "Camilo",
-    "ruta": "Java",
-    "Nota": 87.99999999999999,
-    "estado": "En_linea"
-  },
-  {
-    "numero": 20,
-    "id": 240415351,
-    "trainer": "Camilo",
-    "ruta": "Java",
-    "Nota": 79.89999999999999,
-    "estado": "En_linea"
-  },
-  {
-    "numero": 21,
-    "id": 300767714,
-    "trainer": "Camilo",
-    "ruta": "Java",
-    "Nota": 83.8,
-    "estado": "En_linea"
-  },
-  {
-    "numero": 23,
-    "id": 996317244,
-    "trainer": "Camilo",
-    "ruta": "Java",
-    "Nota": 73.7,
-    "estado": "En_linea"
-  },
-  {
-    "numero": 24,
-    "id": 518591475,
-    "trainer": "Camilo",
-    "ruta": "Java",
-    "Nota": 71.6,
-    "estado": "En_linea"
-  },
-  {
-    "numero": 25,
-    "id": 323972726,
-    "trainer": "Camilo",
-    "ruta": "Java",
-    "Nota": 94.0,
-    "estado": "En_linea"
-  },
-  {
-    "numero": 26,
-    "id": 473855669,
-    "trainer": "Camilo",
-    "ruta": "Java",
-    "Nota": 65.5,
-    "estado": "En_linea"
-  },
-  {
-    "numero": 27,
-    "id": 696104329,
-    "trainer": "Camilo",
-    "ruta": "Java",
-    "Nota": 66.2,
-    "estado": "En_linea"
-  },
-  {
-    "numero": 28,
-    "id": 958536882,
-    "trainer": "Camilo",
-    "ruta": "Java",
-    "Nota": 75.39999999999999,
-    "estado": "En_linea"
-  },
-  {
     "numero": 29,
-    "id": 255759815,
+    "id": 602130513,
     "trainer": "Camilo",
     "ruta": "Java",
-    "Nota": 71.89999999999999,
+    "Nota": 77.60000000000001,
+    "estado": "En_linea"
+  },
+  {
+    "numero": 30,
+    "id": 246079229,
+    "trainer": "Camilo",
+    "ruta": "Java",
+    "Nota": 65.1,
     "estado": "En_linea"
   },
   {
     "numero": 31,
-    "id": 181736589,
+    "id": 669897104,
     "trainer": "Maria",
     "ruta": "NodeJs",
-    "Nota": 64.4,
+    "Nota": 69.39999999999999,
     "estado": "En_linea"
   },
   {
-    "numero": 32,
-    "id": 401439632,
+    "numero": 34,
+    "id": 682109500,
     "trainer": "Maria",
     "ruta": "NodeJs",
-    "Nota": 81.49999999999999,
-    "estado": "En_linea"
-  },
-  {
-    "numero": 35,
-    "id": 853742362,
-    "trainer": "Maria",
-    "ruta": "NodeJs",
-    "Nota": 80.3,
+    "Nota": 60.9,
     "estado": "En_linea"
   },
   {
     "numero": 36,
-    "id": 167261591,
+    "id": 863695068,
     "trainer": "Maria",
     "ruta": "NodeJs",
-    "Nota": 69.5,
+    "Nota": 79.3,
     "estado": "En_linea"
   },
   {
     "numero": 37,
-    "id": 620470733,
+    "id": 779190038,
     "trainer": "Maria",
     "ruta": "NodeJs",
-    "Nota": 70.0,
+    "Nota": 79.6,
     "estado": "En_linea"
   },
   {
     "numero": 38,
-    "id": 550080581,
+    "id": 448903127,
     "trainer": "Maria",
     "ruta": "NodeJs",
-    "Nota": 61.6,
+    "Nota": 69.3,
     "estado": "En_linea"
   },
   {
     "numero": 39,
-    "id": 789707368,
+    "id": 645785159,
     "trainer": "Maria",
     "ruta": "NodeJs",
-    "Nota": 92.6,
+    "Nota": 89.60000000000001,
     "estado": "En_linea"
   },
   {
     "numero": 40,
-    "id": 209810770,
+    "id": 955459346,
     "trainer": "Maria",
     "ruta": "NodeJs",
-    "Nota": 86.5,
+    "Nota": 86.2,
     "estado": "En_linea"
   },
   {
     "numero": 41,
-    "id": 188066219,
+    "id": 266757766,
     "trainer": "Maria",
     "ruta": "NodeJs",
-    "Nota": 82.69999999999999,
-    "estado": "En_linea"
-  },
-  {
-    "numero": 43,
-    "id": 508930044,
-    "trainer": "Maria",
-    "ruta": "NodeJs",
-    "Nota": 79.9,
+    "Nota": 73.6,
     "estado": "En_linea"
   },
   {
     "numero": 44,
-    "id": 219617952,
+    "id": 257440599,
     "trainer": "Maria",
     "ruta": "NodeJs",
-    "Nota": 67.7,
-    "estado": "En_linea"
-  },
-  {
-    "numero": 45,
-    "id": 266083188,
-    "trainer": "Maria",
-    "ruta": "NodeJs",
-    "Nota": 74.6,
+    "Nota": 82.79999999999998,
     "estado": "En_linea"
   },
   {
     "numero": 46,
-    "id": 619573864,
+    "id": 227125669,
     "trainer": "Maria",
     "ruta": "NodeJs",
-    "Nota": 81.89999999999999,
+    "Nota": 62.699999999999996,
     "estado": "En_linea"
   },
   {
     "numero": 47,
-    "id": 914827007,
+    "id": 600412803,
     "trainer": "Maria",
     "ruta": "NodeJs",
-    "Nota": 69.8,
-    "estado": "En_linea"
-  },
-  {
-    "numero": 48,
-    "id": 234273812,
-    "trainer": "Maria",
-    "ruta": "NodeJs",
-    "Nota": 62.9,
+    "Nota": 89.49999999999999,
     "estado": "En_linea"
   },
   {
     "numero": 49,
-    "id": 678236041,
+    "id": 673286271,
     "trainer": "Maria",
     "ruta": "NodeJs",
-    "Nota": 61.39999999999999,
+    "Nota": 71.60000000000001,
     "estado": "En_linea"
   },
   {
     "numero": 50,
-    "id": 733659350,
+    "id": 114694621,
     "trainer": "Maria",
     "ruta": "NodeJs",
-    "Nota": 88.10000000000001,
+    "Nota": 63.2,
     "estado": "En_linea"
   },
   {
     "numero": 51,
-    "id": 937538142,
+    "id": 529734294,
     "trainer": "Maria",
     "ruta": "NodeJs",
-    "Nota": 78.8,
+    "Nota": 84.49999999999999,
     "estado": "En_linea"
   },
   {
     "numero": 52,
-    "id": 121123131,
+    "id": 608208133,
     "trainer": "Maria",
     "ruta": "NodeJs",
-    "Nota": 85.60000000000001,
+    "Nota": 72.7,
     "estado": "En_linea"
   },
   {
     "numero": 53,
-    "id": 528345442,
+    "id": 659236819,
     "trainer": "Maria",
     "ruta": "NodeJs",
-    "Nota": 83.5,
+    "Nota": 61.3,
     "estado": "En_linea"
   },
   {
-    "numero": 55,
-    "id": 292765363,
+    "numero": 54,
+    "id": 248965978,
     "trainer": "Maria",
     "ruta": "NodeJs",
-    "Nota": 90.3,
+    "Nota": 67.3,
     "estado": "En_linea"
   },
   {
     "numero": 56,
-    "id": 265352217,
+    "id": 641931044,
     "trainer": "Maria",
     "ruta": "NodeJs",
-    "Nota": 61.39999999999999,
+    "Nota": 77.3,
     "estado": "En_linea"
   },
   {
     "numero": 57,
-    "id": 538404152,
+    "id": 175845817,
     "trainer": "Maria",
     "ruta": "NodeJs",
-    "Nota": 60.6,
+    "Nota": 89.99999999999999,
     "estado": "En_linea"
   },
   {
     "numero": 58,
-    "id": 896534578,
+    "id": 838706337,
     "trainer": "Maria",
     "ruta": "NodeJs",
-    "Nota": 74.30000000000001,
-    "estado": "En_linea"
-  },
-  {
-    "numero": 59,
-    "id": 550572443,
-    "trainer": "Maria",
-    "ruta": "NodeJs",
-    "Nota": 63.099999999999994,
+    "Nota": 63.699999999999996,
     "estado": "En_linea"
   },
   {
     "numero": 60,
-    "id": 406387865,
+    "id": 948436218,
     "trainer": "Maria",
     "ruta": "NodeJs",
-    "Nota": 73.30000000000001,
-    "estado": "En_linea"
-  },
-  {
-    "numero": 61,
-    "id": 105250938,
-    "trainer": "Robert",
-    "ruta": "NetCore",
-    "Nota": 73.89999999999999,
-    "estado": "En_linea"
-  },
-  {
-    "numero": 62,
-    "id": 584369775,
-    "trainer": "Robert",
-    "ruta": "NetCore",
-    "Nota": 66.89999999999999,
-    "estado": "En_linea"
-  },
-  {
-    "numero": 63,
-    "id": 449824712,
-    "trainer": "Robert",
-    "ruta": "NetCore",
-    "Nota": 71.2,
+    "Nota": 70.6,
     "estado": "En_linea"
   },
   {
     "numero": 64,
-    "id": 511177408,
-    "trainer": "Robert",
-    "ruta": "NetCore",
-    "Nota": 78.9,
-    "estado": "En_linea"
-  },
-  {
-    "numero": 65,
-    "id": 671085859,
-    "trainer": "Robert",
-    "ruta": "NetCore",
-    "Nota": 75.1,
-    "estado": "En_linea"
-  },
-  {
-    "numero": 67,
-    "id": 970970031,
-    "trainer": "Robert",
-    "ruta": "NetCore",
-    "Nota": 80.69999999999999,
-    "estado": "En_linea"
-  },
-  {
-    "numero": 68,
-    "id": 308281928,
-    "trainer": "Robert",
-    "ruta": "NetCore",
-    "Nota": 70.1,
-    "estado": "En_linea"
-  },
-  {
-    "numero": 69,
-    "id": 532368211,
+    "id": 117757817,
     "trainer": "Robert",
     "ruta": "NetCore",
     "Nota": 72.5,
     "estado": "En_linea"
   },
   {
-    "numero": 71,
-    "id": 481907751,
+    "numero": 65,
+    "id": 306673151,
     "trainer": "Robert",
     "ruta": "NetCore",
-    "Nota": 72.7,
+    "Nota": 63.8,
+    "estado": "En_linea"
+  },
+  {
+    "numero": 67,
+    "id": 306452149,
+    "trainer": "Robert",
+    "ruta": "NetCore",
+    "Nota": 80.30000000000001,
+    "estado": "En_linea"
+  },
+  {
+    "numero": 68,
+    "id": 365992199,
+    "trainer": "Robert",
+    "ruta": "NetCore",
+    "Nota": 80.49999999999999,
+    "estado": "En_linea"
+  },
+  {
+    "numero": 69,
+    "id": 690459889,
+    "trainer": "Robert",
+    "ruta": "NetCore",
+    "Nota": 76.8,
+    "estado": "En_linea"
+  },
+  {
+    "numero": 70,
+    "id": 103117109,
+    "trainer": "Robert",
+    "ruta": "NetCore",
+    "Nota": 73.1,
+    "estado": "En_linea"
+  },
+  {
+    "numero": 71,
+    "id": 435241046,
+    "trainer": "Robert",
+    "ruta": "NetCore",
+    "Nota": 69.0,
     "estado": "En_linea"
   },
   {
     "numero": 72,
-    "id": 969130303,
+    "id": 627058194,
     "trainer": "Robert",
     "ruta": "NetCore",
-    "Nota": 66.39999999999999,
+    "Nota": 72.99999999999999,
     "estado": "En_linea"
   },
   {
     "numero": 73,
-    "id": 947231405,
+    "id": 263151139,
     "trainer": "Robert",
     "ruta": "NetCore",
-    "Nota": 75.39999999999999,
+    "Nota": 74.1,
     "estado": "En_linea"
   },
   {
     "numero": 74,
-    "id": 250535886,
+    "id": 328703138,
     "trainer": "Robert",
     "ruta": "NetCore",
-    "Nota": 62.0,
+    "Nota": 74.1,
     "estado": "En_linea"
   },
   {
     "numero": 75,
-    "id": 704794772,
+    "id": 373406167,
     "trainer": "Robert",
     "ruta": "NetCore",
-    "Nota": 74.9,
-    "estado": "En_linea"
-  },
-  {
-    "numero": 76,
-    "id": 859584686,
-    "trainer": "Robert",
-    "ruta": "NetCore",
-    "Nota": 73.8,
-    "estado": "En_linea"
-  },
-  {
-    "numero": 77,
-    "id": 724883800,
-    "trainer": "Robert",
-    "ruta": "NetCore",
-    "Nota": 71.5,
-    "estado": "En_linea"
-  },
-  {
-    "numero": 78,
-    "id": 525065055,
-    "trainer": "Robert",
-    "ruta": "NetCore",
-    "Nota": 71.8,
-    "estado": "En_linea"
-  },
-  {
-    "numero": 79,
-    "id": 852805941,
-    "trainer": "Robert",
-    "ruta": "NetCore",
-    "Nota": 67.6,
-    "estado": "En_linea"
-  },
-  {
-    "numero": 80,
-    "id": 771322512,
-    "trainer": "Robert",
-    "ruta": "NetCore",
-    "Nota": 67.9,
-    "estado": "En_linea"
-  },
-  {
-    "numero": 81,
-    "id": 584533997,
-    "trainer": "Robert",
-    "ruta": "NetCore",
-    "Nota": 91.5,
-    "estado": "En_linea"
-  },
-  {
-    "numero": 82,
-    "id": 328269882,
-    "trainer": "Robert",
-    "ruta": "NetCore",
-    "Nota": 71.1,
+    "Nota": 70.7,
     "estado": "En_linea"
   }
 ]

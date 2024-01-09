@@ -1,500 +1,452 @@
 [
   {
     "numero": 1,
-    "id": 183233041,
+    "id": 233212925,
     "estado": "Aprobado",
-    "nota_prueba_admision": 61.0
+    "nota_prueba_admision": 79.5
   },
   {
     "numero": 2,
-    "id": 205878652,
+    "id": 413001739,
     "estado": "Aprobado",
-    "nota_prueba_admision": 75.5
+    "nota_prueba_admision": 64.5
   },
   {
     "numero": 3,
-    "id": 161404923,
+    "id": 936866382,
     "estado": "Aprobado",
-    "nota_prueba_admision": 72.5
+    "nota_prueba_admision": 62.0
   },
   {
     "numero": 4,
-    "id": 408371532,
+    "id": 247537398,
+    "estado": "Aprobado",
+    "nota_prueba_admision": 64.0
+  },
+  {
+    "numero": 5,
+    "id": 693854104,
+    "estado": "Aprobado",
+    "nota_prueba_admision": 89.5
+  },
+  {
+    "numero": 6,
+    "id": 458748810,
+    "estado": "Aprobado",
+    "nota_prueba_admision": 78.5
+  },
+  {
+    "numero": 7,
+    "id": 777231705,
+    "estado": "Aprobado",
+    "nota_prueba_admision": 78.5
+  },
+  {
+    "numero": 8,
+    "id": 435327754,
     "estado": "Aprobado",
     "nota_prueba_admision": 77.5
   },
   {
-    "numero": 5,
-    "id": 797468137,
-    "estado": "Aprobado",
-    "nota_prueba_admision": 63.5
-  },
-  {
-    "numero": 6,
-    "id": 386229049,
-    "estado": "Aprobado",
-    "nota_prueba_admision": 87.5
-  },
-  {
-    "numero": 7,
-    "id": 263428275,
-    "estado": "Aprobado",
-    "nota_prueba_admision": 97.5
-  },
-  {
-    "numero": 8,
-    "id": 147105820,
-    "estado": "Aprobado",
-    "nota_prueba_admision": 61.0
-  },
-  {
     "numero": 9,
-    "id": 606692080,
+    "id": 201615902,
     "estado": "Aprobado",
     "nota_prueba_admision": 73.0
   },
   {
     "numero": 10,
-    "id": 446476156,
+    "id": 498713263,
     "estado": "Aprobado",
-    "nota_prueba_admision": 84.5
+    "nota_prueba_admision": 67.0
   },
   {
     "numero": 11,
-    "id": 118488197,
+    "id": 997371874,
     "estado": "Aprobado",
-    "nota_prueba_admision": 63.5
+    "nota_prueba_admision": 82.0
   },
   {
     "numero": 12,
-    "id": 962357318,
+    "id": 956129146,
     "estado": "Aprobado",
-    "nota_prueba_admision": 64.0
+    "nota_prueba_admision": 60.0
   },
   {
     "numero": 13,
-    "id": 367012716,
+    "id": 634252146,
     "estado": "Aprobado",
-    "nota_prueba_admision": 65.5
+    "nota_prueba_admision": 63.0
   },
   {
     "numero": 14,
-    "id": 377428557,
+    "id": 859068236,
     "estado": "Aprobado",
-    "nota_prueba_admision": 73.0
+    "nota_prueba_admision": 66.5
   },
   {
     "numero": 15,
-    "id": 360310261,
+    "id": 423536828,
+    "estado": "Aprobado",
+    "nota_prueba_admision": 85.0
+  },
+  {
+    "numero": 16,
+    "id": 614025087,
+    "estado": "Aprobado",
+    "nota_prueba_admision": 87.5
+  },
+  {
+    "numero": 17,
+    "id": 932330147,
     "estado": "Aprobado",
     "nota_prueba_admision": 68.5
   },
   {
-    "numero": 16,
-    "id": 918018656,
-    "estado": "Aprobado",
-    "nota_prueba_admision": 92.5
-  },
-  {
-    "numero": 17,
-    "id": 954268207,
-    "estado": "Aprobado",
-    "nota_prueba_admision": 70.0
-  },
-  {
     "numero": 18,
-    "id": 868598313,
+    "id": 746910400,
+    "estado": "Aprobado",
+    "nota_prueba_admision": 85.0
+  },
+  {
+    "numero": 19,
+    "id": 986415111,
+    "estado": "Aprobado",
+    "nota_prueba_admision": 62.0
+  },
+  {
+    "numero": 20,
+    "id": 867059817,
     "estado": "Aprobado",
     "nota_prueba_admision": 72.0
   },
   {
-    "numero": 19,
-    "id": 518274473,
-    "estado": "Aprobado",
-    "nota_prueba_admision": 71.5
-  },
-  {
-    "numero": 20,
-    "id": 240415351,
-    "estado": "Aprobado",
-    "nota_prueba_admision": 84.0
-  },
-  {
     "numero": 21,
-    "id": 300767714,
+    "id": 185181644,
     "estado": "Aprobado",
     "nota_prueba_admision": 70.5
   },
   {
     "numero": 22,
-    "id": 131857947,
+    "id": 350364012,
     "estado": "Aprobado",
-    "nota_prueba_admision": 69.0
+    "nota_prueba_admision": 89.0
   },
   {
     "numero": 23,
-    "id": 996317244,
+    "id": 688317743,
     "estado": "Aprobado",
-    "nota_prueba_admision": 95.5
+    "nota_prueba_admision": 76.0
   },
   {
     "numero": 24,
-    "id": 518591475,
+    "id": 503125200,
     "estado": "Aprobado",
-    "nota_prueba_admision": 74.5
+    "nota_prueba_admision": 88.5
   },
   {
     "numero": 25,
-    "id": 323972726,
+    "id": 892511254,
     "estado": "Aprobado",
-    "nota_prueba_admision": 96.5
+    "nota_prueba_admision": 66.0
   },
   {
     "numero": 26,
-    "id": 473855669,
+    "id": 912567562,
     "estado": "Aprobado",
-    "nota_prueba_admision": 70.5
+    "nota_prueba_admision": 84.5
   },
   {
     "numero": 27,
-    "id": 696104329,
+    "id": 240856838,
     "estado": "Aprobado",
     "nota_prueba_admision": 75.0
   },
   {
     "numero": 28,
-    "id": 958536882,
+    "id": 865083563,
     "estado": "Aprobado",
-    "nota_prueba_admision": 89.5
+    "nota_prueba_admision": 65.5
   },
   {
     "numero": 29,
-    "id": 255759815,
+    "id": 602130513,
     "estado": "Aprobado",
-    "nota_prueba_admision": 88.5
+    "nota_prueba_admision": 92.0
   },
   {
     "numero": 30,
-    "id": 862109722,
+    "id": 246079229,
+    "estado": "Aprobado",
+    "nota_prueba_admision": 75.0
+  },
+  {
+    "numero": 31,
+    "id": 669897104,
     "estado": "Aprobado",
     "nota_prueba_admision": 67.5
   },
   {
-    "numero": 31,
-    "id": 181736589,
-    "estado": "Aprobado",
-    "nota_prueba_admision": 74.5
-  },
-  {
     "numero": 32,
-    "id": 401439632,
+    "id": 128598382,
     "estado": "Aprobado",
-    "nota_prueba_admision": 83.5
+    "nota_prueba_admision": 92.5
   },
   {
     "numero": 33,
-    "id": 242750164,
-    "estado": "Aprobado",
-    "nota_prueba_admision": 61.0
-  },
-  {
-    "numero": 34,
-    "id": 895120586,
-    "estado": "Aprobado",
-    "nota_prueba_admision": 77.0
-  },
-  {
-    "numero": 35,
-    "id": 853742362,
+    "id": 986656461,
     "estado": "Aprobado",
     "nota_prueba_admision": 72.5
   },
   {
-    "numero": 36,
-    "id": 167261591,
+    "numero": 34,
+    "id": 682109500,
     "estado": "Aprobado",
-    "nota_prueba_admision": 70.5
+    "nota_prueba_admision": 80.5
+  },
+  {
+    "numero": 35,
+    "id": 439764488,
+    "estado": "Aprobado",
+    "nota_prueba_admision": 85.0
+  },
+  {
+    "numero": 36,
+    "id": 863695068,
+    "estado": "Aprobado",
+    "nota_prueba_admision": 78.5
   },
   {
     "numero": 37,
-    "id": 620470733,
+    "id": 779190038,
     "estado": "Aprobado",
-    "nota_prueba_admision": 66.5
+    "nota_prueba_admision": 73.5
   },
   {
     "numero": 38,
-    "id": 550080581,
+    "id": 448903127,
     "estado": "Aprobado",
-    "nota_prueba_admision": 88.0
+    "nota_prueba_admision": 79.5
   },
   {
     "numero": 39,
-    "id": 789707368,
+    "id": 645785159,
     "estado": "Aprobado",
     "nota_prueba_admision": 74.0
   },
   {
     "numero": 40,
-    "id": 209810770,
+    "id": 955459346,
     "estado": "Aprobado",
-    "nota_prueba_admision": 87.5
+    "nota_prueba_admision": 73.0
   },
   {
     "numero": 41,
-    "id": 188066219,
-    "estado": "Aprobado",
-    "nota_prueba_admision": 78.5
-  },
-  {
-    "numero": 42,
-    "id": 149365205,
-    "estado": "Aprobado",
-    "nota_prueba_admision": 69.5
-  },
-  {
-    "numero": 43,
-    "id": 508930044,
-    "estado": "Aprobado",
-    "nota_prueba_admision": 86.0
-  },
-  {
-    "numero": 44,
-    "id": 219617952,
-    "estado": "Aprobado",
-    "nota_prueba_admision": 75.5
-  },
-  {
-    "numero": 45,
-    "id": 266083188,
-    "estado": "Aprobado",
-    "nota_prueba_admision": 89.5
-  },
-  {
-    "numero": 46,
-    "id": 619573864,
-    "estado": "Aprobado",
-    "nota_prueba_admision": 68.5
-  },
-  {
-    "numero": 47,
-    "id": 914827007,
-    "estado": "Aprobado",
-    "nota_prueba_admision": 74.5
-  },
-  {
-    "numero": 48,
-    "id": 234273812,
-    "estado": "Aprobado",
-    "nota_prueba_admision": 61.5
-  },
-  {
-    "numero": 49,
-    "id": 678236041,
-    "estado": "Aprobado",
-    "nota_prueba_admision": 75.0
-  },
-  {
-    "numero": 50,
-    "id": 733659350,
-    "estado": "Aprobado",
-    "nota_prueba_admision": 62.5
-  },
-  {
-    "numero": 51,
-    "id": 937538142,
-    "estado": "Aprobado",
-    "nota_prueba_admision": 72.5
-  },
-  {
-    "numero": 52,
-    "id": 121123131,
-    "estado": "Aprobado",
-    "nota_prueba_admision": 75.5
-  },
-  {
-    "numero": 53,
-    "id": 528345442,
-    "estado": "Aprobado",
-    "nota_prueba_admision": 79.0
-  },
-  {
-    "numero": 54,
-    "id": 702239632,
-    "estado": "Aprobado",
-    "nota_prueba_admision": 73.0
-  },
-  {
-    "numero": 55,
-    "id": 292765363,
-    "estado": "Aprobado",
-    "nota_prueba_admision": 78.0
-  },
-  {
-    "numero": 56,
-    "id": 265352217,
-    "estado": "Aprobado",
-    "nota_prueba_admision": 73.0
-  },
-  {
-    "numero": 57,
-    "id": 538404152,
-    "estado": "Aprobado",
-    "nota_prueba_admision": 67.5
-  },
-  {
-    "numero": 58,
-    "id": 896534578,
-    "estado": "Aprobado",
-    "nota_prueba_admision": 78.5
-  },
-  {
-    "numero": 59,
-    "id": 550572443,
-    "estado": "Aprobado",
-    "nota_prueba_admision": 90.0
-  },
-  {
-    "numero": 60,
-    "id": 406387865,
-    "estado": "Aprobado",
-    "nota_prueba_admision": 69.0
-  },
-  {
-    "numero": 61,
-    "id": 105250938,
+    "id": 266757766,
     "estado": "Aprobado",
     "nota_prueba_admision": 76.5
   },
   {
-    "numero": 62,
-    "id": 584369775,
+    "numero": 42,
+    "id": 695180636,
     "estado": "Aprobado",
-    "nota_prueba_admision": 76.0
+    "nota_prueba_admision": 61.5
   },
   {
-    "numero": 63,
-    "id": 449824712,
+    "numero": 43,
+    "id": 621101064,
     "estado": "Aprobado",
-    "nota_prueba_admision": 62.5
+    "nota_prueba_admision": 70.0
   },
   {
-    "numero": 64,
-    "id": 511177408,
+    "numero": 44,
+    "id": 257440599,
     "estado": "Aprobado",
-    "nota_prueba_admision": 80.0
+    "nota_prueba_admision": 67.5
   },
   {
-    "numero": 65,
-    "id": 671085859,
+    "numero": 45,
+    "id": 833727591,
     "estado": "Aprobado",
-    "nota_prueba_admision": 63.5
+    "nota_prueba_admision": 65.0
   },
   {
-    "numero": 66,
-    "id": 810850498,
+    "numero": 46,
+    "id": 227125669,
     "estado": "Aprobado",
-    "nota_prueba_admision": 72.5
+    "nota_prueba_admision": 86.5
   },
   {
-    "numero": 67,
-    "id": 970970031,
+    "numero": 47,
+    "id": 600412803,
     "estado": "Aprobado",
-    "nota_prueba_admision": 62.0
+    "nota_prueba_admision": 71.0
   },
   {
-    "numero": 68,
-    "id": 308281928,
+    "numero": 48,
+    "id": 674507865,
     "estado": "Aprobado",
-    "nota_prueba_admision": 74.0
+    "nota_prueba_admision": 65.5
   },
   {
-    "numero": 69,
-    "id": 532368211,
+    "numero": 49,
+    "id": 673286271,
     "estado": "Aprobado",
-    "nota_prueba_admision": 94.0
+    "nota_prueba_admision": 60.5
   },
   {
-    "numero": 70,
-    "id": 393453537,
+    "numero": 50,
+    "id": 114694621,
     "estado": "Aprobado",
-    "nota_prueba_admision": 83.5
+    "nota_prueba_admision": 65.0
   },
   {
-    "numero": 71,
-    "id": 481907751,
+    "numero": 51,
+    "id": 529734294,
     "estado": "Aprobado",
-    "nota_prueba_admision": 68.5
+    "nota_prueba_admision": 81.0
   },
   {
-    "numero": 72,
-    "id": 969130303,
-    "estado": "Aprobado",
-    "nota_prueba_admision": 81.5
-  },
-  {
-    "numero": 73,
-    "id": 947231405,
+    "numero": 52,
+    "id": 608208133,
     "estado": "Aprobado",
     "nota_prueba_admision": 66.0
   },
   {
-    "numero": 74,
-    "id": 250535886,
-    "estado": "Aprobado",
-    "nota_prueba_admision": 77.5
-  },
-  {
-    "numero": 75,
-    "id": 704794772,
+    "numero": 53,
+    "id": 659236819,
     "estado": "Aprobado",
     "nota_prueba_admision": 72.0
   },
   {
-    "numero": 76,
-    "id": 859584686,
+    "numero": 54,
+    "id": 248965978,
     "estado": "Aprobado",
-    "nota_prueba_admision": 78.5
+    "nota_prueba_admision": 68.5
   },
   {
-    "numero": 77,
-    "id": 724883800,
+    "numero": 55,
+    "id": 427779071,
     "estado": "Aprobado",
-    "nota_prueba_admision": 83.5
+    "nota_prueba_admision": 87.5
   },
   {
-    "numero": 78,
-    "id": 525065055,
+    "numero": 56,
+    "id": 641931044,
+    "estado": "Aprobado",
+    "nota_prueba_admision": 67.5
+  },
+  {
+    "numero": 57,
+    "id": 175845817,
+    "estado": "Aprobado",
+    "nota_prueba_admision": 87.5
+  },
+  {
+    "numero": 58,
+    "id": 838706337,
+    "estado": "Aprobado",
+    "nota_prueba_admision": 90.5
+  },
+  {
+    "numero": 59,
+    "id": 847644554,
     "estado": "Aprobado",
     "nota_prueba_admision": 67.0
   },
   {
-    "numero": 79,
-    "id": 852805941,
+    "numero": 60,
+    "id": 948436218,
+    "estado": "Aprobado",
+    "nota_prueba_admision": 74.0
+  },
+  {
+    "numero": 61,
+    "id": 676730260,
+    "estado": "Aprobado",
+    "nota_prueba_admision": 75.5
+  },
+  {
+    "numero": 62,
+    "id": 884623684,
+    "estado": "Aprobado",
+    "nota_prueba_admision": 74.5
+  },
+  {
+    "numero": 63,
+    "id": 737885800,
+    "estado": "Aprobado",
+    "nota_prueba_admision": 72.5
+  },
+  {
+    "numero": 64,
+    "id": 117757817,
+    "estado": "Aprobado",
+    "nota_prueba_admision": 83.5
+  },
+  {
+    "numero": 65,
+    "id": 306673151,
+    "estado": "Aprobado",
+    "nota_prueba_admision": 75.0
+  },
+  {
+    "numero": 66,
+    "id": 564352636,
+    "estado": "Aprobado",
+    "nota_prueba_admision": 98.0
+  },
+  {
+    "numero": 67,
+    "id": 306452149,
+    "estado": "Aprobado",
+    "nota_prueba_admision": 88.0
+  },
+  {
+    "numero": 68,
+    "id": 365992199,
+    "estado": "Aprobado",
+    "nota_prueba_admision": 85.5
+  },
+  {
+    "numero": 69,
+    "id": 690459889,
+    "estado": "Aprobado",
+    "nota_prueba_admision": 82.0
+  },
+  {
+    "numero": 70,
+    "id": 103117109,
+    "estado": "Aprobado",
+    "nota_prueba_admision": 72.0
+  },
+  {
+    "numero": 71,
+    "id": 435241046,
+    "estado": "Aprobado",
+    "nota_prueba_admision": 81.0
+  },
+  {
+    "numero": 72,
+    "id": 627058194,
+    "estado": "Aprobado",
+    "nota_prueba_admision": 68.5
+  },
+  {
+    "numero": 73,
+    "id": 263151139,
     "estado": "Aprobado",
     "nota_prueba_admision": 84.0
   },
   {
-    "numero": 80,
-    "id": 771322512,
+    "numero": 74,
+    "id": 328703138,
     "estado": "Aprobado",
-    "nota_prueba_admision": 79.5
+    "nota_prueba_admision": 87.0
   },
   {
-    "numero": 81,
-    "id": 584533997,
+    "numero": 75,
+    "id": 373406167,
     "estado": "Aprobado",
-    "nota_prueba_admision": 89.5
-  },
-  {
-    "numero": 82,
-    "id": 328269882,
-    "estado": "Aprobado",
-    "nota_prueba_admision": 97.5
-  },
-  {
-    "numero": 1,
-    "id": 109778278,
-    "estado": "Aprobado",
-    "nota_prueba_admision": 99.0
+    "nota_prueba_admision": 70.5
   }
 ]

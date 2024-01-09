@@ -4,39 +4,42 @@ from tools.utils import *
 # funcion de registrar camper o incribir por unidad
 
 def inscribir_camper():
-    lista_inscritos = cargar_json("inscritos.json")
-    lista_nuevo=[]
-   
-    id=int(input("Numero de identificacion: "))
-    nombre=input("Nombre: ")
-    apellidos=input("Apellidos: ")
-    direccion=input("Direccion: ")
-    acudiente=input("Acudiente: ")
-    telefonoFijo=input("Telefono Fijo: ")
-    nota_prueba_teorica=input("Nota prueba de admision teorica: ")
-    nota_prueba_practica=input("Nota prueba de admision practica: ")
-    promedio_nota_inicial = promedio(nota_prueba_teorica, nota_prueba_practica, 2)
-    estado="Inscrito"
+        lista_inscritos = cargar_json("inscritos.json")
+        lista_nuevo=[]
     
+        id=int(input("Numero de identificacion: "))
+        nombre=input("Nombre: ")
+        apellidos=input("Apellidos: ")
+        direccion=input("Direccion: ")
+        acudiente=input("Acudiente: ")
+        telefonoFijo=input("Telefono Fijo: ")
+        nota_prueba_teorica=input("Nota prueba de admision teorica: ")
+        nota_prueba_practica=input("Nota prueba de admision practica: ")
+        promedio_nota_inicial = promedio(nota_prueba_teorica, nota_prueba_practica, 2)
+        estado="Inscrito"
+        
 
-    new_camper_inscrito={
-        'id':id,
-        'nombre':nombre,
-        "apellidos":apellidos,
-        "direccion":direccion,
-        "acudiente":acudiente,
-        "telefono":telefonoFijo,
-        "nota_prueba_admision":promedio_nota_inicial,
-        "estado":estado
-    }
+        new_camper_inscrito={
+            'id':id,
+            'nombre':nombre,
+            "apellidos":apellidos,
+            "direccion":direccion,
+            "acudiente":acudiente,
+            "telefono":telefonoFijo,
+            "nota_prueba_admision":promedio_nota_inicial,
+            "estado":estado
+        }
 
-    lista_inscritos.append(new_camper_inscrito)
-    lista_nuevo.append(new_camper_inscrito)
-    save_json(lista_inscritos, "inscritos.json")
-    print("Se ha inscrito el camper con exito")
+        lista_inscritos.append(new_camper_inscrito)
+        lista_nuevo.append(new_camper_inscrito)
+        save_json(lista_inscritos, "inscritos.json")
+        print("Se ha inscrito el camper con exito")
 
-    generar_lista_aprobados(lista_nuevo)
+        generar_lista_aprobados(lista_nuevo)
 
+def reinicio():
+    salida=input("Desea agregrar otro(y/n): ")
+    return salida         
 
 # ------------------------------------------------------------------------------------
 # crear lista de inscritos de forma alelatoria

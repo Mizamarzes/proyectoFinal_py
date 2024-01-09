@@ -15,9 +15,13 @@ def manejar_campers():
         limpiar_pantalla() # limpia pantalla
         suboption=menu_campers()
         if suboption==1:
-            limpiar_pantalla()
-            inscribir_camper()
-            input("Click cualquier tecla [continuar]: ")
+            while True:
+                limpiar_pantalla()
+                inscribir_camper()
+                limpiar_pantalla()
+                respuesta=reinicio()
+                if respuesta == "n":
+                    break
         elif suboption==2:
             limpiar_pantalla()
             buscado=buscar_camper_por_id("inscritos.json")
@@ -35,9 +39,13 @@ def trainers():
         limpiar_pantalla()
         suboption=menu_trainers()
         if suboption==1:
-            limpiar_pantalla()
-            crear_trainers()
-            input("Click cualquier tecla [continuar]: ")
+            while True:
+                limpiar_pantalla()
+                crear_trainers()
+                limpiar_pantalla()
+                respuesta=reinicio()
+                if respuesta == "n":
+                    break
         elif suboption==2:
             limpiar_pantalla()
             mostrar_listado("trainers.json", campos_trainers)
@@ -50,9 +58,13 @@ def matriculas():
         limpiar_pantalla()
         suboption=menu_matriculas()
         if suboption==1:
-            limpiar_pantalla()
-            matriculas_campers()
-            input("Click cualquier tecla [continuar]: ")
+            while True:
+                limpiar_pantalla()
+                matriculas_campers()
+                limpiar_pantalla()
+                respuesta=reinicio()
+                if respuesta == "n":
+                    break
         if suboption==2:
             limpiar_pantalla()
             mostrar_listado("matriculas.json", campos_matriculas)
@@ -76,9 +88,13 @@ def rutas():
         limpiar_pantalla()
         suboption=menu_rutas()
         if suboption==1:
-            limpiar_pantalla()
-            crear_nueva_ruta()
-            input("Click cualquier tecla [continuar]: ")
+            while True:
+                limpiar_pantalla()
+                crear_nueva_ruta()
+                limpiar_pantalla()
+                respuesta=reinicio()
+                if respuesta == "n":
+                    break
         elif suboption==2:
             limpiar_pantalla()
             mostrar_listado("rutas.json", campos_rutas)
